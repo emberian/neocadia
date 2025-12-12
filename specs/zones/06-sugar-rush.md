@@ -1,0 +1,323 @@
+# Zone Spec: Sugar Rush Boulevard
+
+## Overview
+
+### Telos
+Sugar Rush Boulevard is pure uncut joy—the part of the arcade that exists just because games should be fun. It's the birthday party zone, the celebration space, the sugar high. But beneath the sweetness, there's a melancholy: Sucre is lonely, the parties have been empty, and too much sweetness can rot.
+
+### Ludos
+Games here are accessible crowd-pleasers: match-3 for casual satisfaction, cooking sim for time-pressure fun, physics puzzler for silly destruction. Easy to pick up, satisfying to play, no barrier to entry. The zone for when you just want to feel good.
+
+---
+
+## Visual Description
+
+### First Impression Prompt
+```
+A street paved with hard candy, where buildings are made of cake. Lampposts are swirled lollipops, fences are licorice, and clouds are cotton candy. The palette is aggressive pastels—bubblegum pink, mint green, sunny yellow. A grand bakery dominates one end, windows displaying impossible confections. Sucre, a golem of stacked sweets, tends to their shop. Everything looks edible. Everything is slightly too bright. The sweetness is almost, but not quite, overwhelming.
+```
+
+### Detailed Environment
+
+**Street**: Paved with hard candy tiles in various colors—clear amber, ruby red, emerald green. Some tiles are cracked, showing more candy underneath. Gumdrop curb stones. Occasional sticky patches (visual only).
+
+**Buildings**: Cake architecture with frosting trim:
+- The Grand Bakery (Sucre's home, main structure)
+- Candy shops with gumdrop roof tiles
+- A chocolate fountain plaza
+- An ice cream parlor (closed at low restoration)
+- Gingerbread houses with icing details
+
+**Vegetation**: Candy plants:
+- Lollipop lampposts
+- Candy cane fences
+- Peppermint bushes
+- Gumdrop flower beds
+- Licorice vines climbing walls
+
+**Sky**: Cotton candy clouds (#FFB6C1 and #87CEEB) against a gradient from pale yellow (#FFFACD) to soft pink (#FFE4E1). Occasional rainbow (made of candy).
+
+**The Grand Bakery**: Sucre's domain:
+- Three-tiered cake building
+- Display windows with rotating confections
+- Interior visible through doors
+- Sucre's counter position
+- Recipe board (quest progress)
+
+**Chocolate Fountain Plaza**: Central gathering area:
+- Large chocolate fountain (flowing/stagnant based on restoration)
+- Benches made of wafer
+- Where parties would happen
+
+**The Party Stage**: Raised platform with:
+- Candy decorations
+- Speaker stacks (candy-themed)
+- Dance floor
+- Currently unused until high restoration
+
+---
+
+## Color Palette
+
+| Role | Color | Hex | Usage |
+|------|-------|-----|-------|
+| Primary | Bubblegum Pink | #FF69B4 | Primary accent, energy |
+| Secondary | Mint Green | #98FF98 | Secondary accent, freshness |
+| Tertiary | Sunny Yellow | #FFFF99 | Warmth, highlights |
+| Accent 1 | Cherry Red | #DE3163 | Drama, hearts |
+| Accent 2 | Cream | #FFFDD0 | Frosting, bases |
+| Chocolate | Rich Brown | #7B3F00 | Chocolate elements |
+| Caramel | Golden Amber | #FFB347 | Candy tiles, warmth |
+| Cotton Candy | Pale Pink | #FFB6C1 | Clouds, softness |
+
+---
+
+## Restoration States
+
+### Stage 1: Flickering (0-25%)
+- Street: Some candy cracked, colors dull
+- Buildings: Frosting drooping, melty
+- Fountain: Chocolate stagnant
+- Sucre: Melting, desperate for company
+- Party Stage: Dark, unused
+
+### Stage 2: Awakening (25-50%)
+- Street: Colors brighter, tiles intact
+- Buildings: Frosting fresh
+- Fountain: Flowing weakly
+- Sucre: Stable, excitable
+- Party Stage: Lights on, no events yet
+
+### Stage 3: Thriving (50-85%)
+- Street: Sparkling, beautiful
+- Buildings: Picture-perfect confections
+- Fountain: Full flow, sparkles
+- Sucre: Happy, recipe-focused
+- Party Stage: Occasional music
+
+### Stage 4: Radiant (85-100%)
+- Street: Magical candy wonderland
+- Buildings: Animated displays
+- Fountain: Spectacular, rideable (?)
+- Sucre: Complete, at peace
+- Party Stage: Full parties, events
+
+---
+
+## Key Landmarks
+
+### The Grand Bakery
+- **Function**: Sucre's home, quest hub, recipe tracking
+- **Interaction**: Click to talk to Sucre, view recipes, get quests
+- **Art Needs**: Bakery exterior (cake building), interior view, counter, display cases, recipe board
+
+### Chocolate Fountain Plaza
+- **Function**: Central gathering, restoration milestone
+- **Interaction**: Visual centerpiece; at full restoration, special events here
+- **Art Needs**: Fountain in multiple states, wafer benches, plaza tiles
+
+### Candy Cascade Station
+- **Function**: Candy Cascade (match-3) game access
+- **Interaction**: Click candy display to play
+- **Art Needs**: Interactive candy grid display, game cabinet styled as candy machine
+
+### Sugar Rush Kitchen
+- **Function**: Cooking game access
+- **Interaction**: Click kitchen window to play
+- **Art Needs**: Kitchen exterior, window view of interior, cooking equipment visible
+
+### Jawbreaker Arena
+- **Function**: Jawbreaker (brick breaker) game access
+- **Interaction**: Click arcade cabinet to play
+- **Art Needs**: Candy-themed arcade cabinet, jawbreaker decorations
+
+### The Party Stage
+- **Function**: Events, celebration, high-restoration content
+- **Interaction**: Context-sensitive; hosts events when active
+- **Art Needs**: Stage with decorations, speaker stacks, dance floor, lights
+
+---
+
+## Ambient Details
+
+### Background Animations
+- Candy sparkles on surfaces
+- Chocolate fountain flowing (when active)
+- Cotton candy clouds drifting
+- Lollipop lampposts glowing
+- Display windows showing rotating treats
+- Occasional candy wrapper blowing by
+
+### Background Characters
+- Gummy bear NPCs (walk around at high restoration)
+- Candy mice (tiny, ambient)
+- At parties: silhouettes dancing
+
+### Environmental Sounds
+- Baseline: Hyperpop-adjacent, bubblegum bass
+- Bubbling: Chocolate fountain
+- Sparkle: Ambient candy twinkle
+- Sucre: Squelchy, sweet voice sounds
+- Wind chimes: Candy cane wind chimes
+
+---
+
+## Navigation Hotspots
+
+| Hotspot | Destination/Action | Visual Indicator |
+|---------|-------------------|------------------|
+| Grand Bakery | Sucre dialogue, quests | Bakery entrance, Sucre visible |
+| Chocolate Fountain | View, events | Fountain, benches |
+| Candy Cascade Station | Candy Cascade game | Candy machine glow |
+| Kitchen Window | Sugar Rush Kitchen game | Steam, cooking sounds |
+| Jawbreaker Arena | Jawbreaker game | Cabinet lights |
+| Party Stage | Events (when active) | Stage lights |
+| Lobby Exit | Return to Lobby | Candy-stripe archway |
+
+---
+
+## Sound Design
+
+### Music
+- **Style**: Hyperpop, bubblegum bass, kawaii future bass
+- **Base Track**: "Sweet Dreams Boulevard" - energetic, bouncy, slightly manic
+- **Dynamic Layers**:
+  - Layer 1 (0-25%): Thin, music box quality, lonely
+  - Layer 2 (25-50%): Add bass, more energy
+  - Layer 3 (50-85%): Full production, party vibes
+  - Layer 4 (85-100%): Maximum sugar rush, euphoric
+
+### Sound Effects Needed
+- Candy crunch (footsteps)
+- Chocolate bubble/pour
+- Sugar sparkle
+- Wrapper crinkle
+- Sucre voice (squelchy, sweet)
+- Oven ding (kitchen)
+- Match-3 candy clear
+- Party music snippet
+- Gummy bounce
+
+---
+
+## Asset List
+
+### Environment
+| Asset | Description | States |
+|-------|-------------|--------|
+| sugar_bg_street | Candy-paved street | 4 (restoration) |
+| sugar_bg_sky | Cotton candy sky | 1 (+ cloud animation) |
+| sugar_clouds | Cotton candy cloud sprites | 3 variants, drift |
+| sugar_lamppost | Lollipop lampposts | On/off |
+| sugar_fence | Candy cane fence sections | 1 |
+| sugar_bushes | Peppermint/gumdrop bushes | 3 variants |
+
+### Buildings
+| Asset | Description | States |
+|-------|-------------|--------|
+| sugar_bakery_ext | Grand Bakery exterior | 4 (restoration) |
+| sugar_bakery_int | Bakery interior (visible) | 1 |
+| sugar_bakery_counter | Sucre's counter | 1 |
+| sugar_bakery_displays | Display cases | Animation (rotating) |
+| sugar_recipe_board | Recipe progress board | Dynamic content |
+| sugar_shop_* | Various candy shops | 3 types, 4 states each |
+| sugar_gingerbread | Gingerbread houses | 2 variants |
+| sugar_ice_cream | Ice cream parlor | Closed/open |
+
+### Plaza
+| Asset | Description | States |
+|-------|-------------|--------|
+| sugar_fountain | Chocolate fountain | 4 (stagnant → flowing) |
+| sugar_benches | Wafer benches | 1 |
+| sugar_plaza_floor | Plaza tile pattern | 1 |
+
+### Stage
+| Asset | Description | States |
+|-------|-------------|--------|
+| sugar_stage | Party stage platform | Dark/lit |
+| sugar_speakers | Speaker stacks | 1 |
+| sugar_dance_floor | Dance floor | Idle/active |
+| sugar_stage_lights | Stage lighting | Off/on/party |
+| sugar_decorations | Stage candy decorations | 1 |
+
+### Game Stations
+| Asset | Description | States |
+|-------|-------------|--------|
+| sugar_cascade_machine | Candy Cascade cabinet | Idle/active |
+| sugar_kitchen_window | Kitchen game access | Idle/active |
+| sugar_jawbreaker_cabinet | Jawbreaker cabinet | Idle/active |
+
+### Creatures
+| Asset | Description | Notes |
+|-------|-------------|-------|
+| creature_gummy_bear | Ambient gummy NPCs | Walk cycle, 4 colors |
+| creature_candy_mouse | Tiny candy mice | Scurry animation |
+
+### Effects
+| Asset | Description | Type |
+|-------|-------------|------|
+| fx_candy_sparkle | Surface sparkles | Particle |
+| fx_chocolate_flow | Fountain flow | Animation |
+| fx_sugar_dust | Sweet particle effect | Particle |
+| fx_rainbow | Candy rainbow | Sprite, rare |
+
+---
+
+## Minigames Housed
+
+### Candy Cascade
+*See minigames/sugar-rush/candy-cascade.md*
+- Genre: Match-3
+- Access: Candy Cascade Station
+
+### Sugar Rush Kitchen
+*See minigames/sugar-rush/sugar-rush-kitchen.md*
+- Genre: Cooking/time management
+- Access: Kitchen Window
+
+### Jawbreaker
+*See minigames/sugar-rush/jawbreaker.md*
+- Genre: Brick breaker variant
+- Access: Jawbreaker Arena
+
+---
+
+## Implementation Notes
+
+### Navigation Flow
+```
+Lobby → Sugar Rush Boulevard (main street)
+        ├─→ Grand Bakery (Sucre)
+        ├─→ Chocolate Fountain Plaza
+        ├─→ Candy Cascade Station → Candy Cascade
+        ├─→ Kitchen Window → Sugar Rush Kitchen
+        ├─→ Jawbreaker Arena → Jawbreaker
+        ├─→ Party Stage (events)
+        └─→ Exit → Lobby
+```
+
+### Data Required
+```typescript
+interface SugarRushState {
+  restoration_percent: number;
+  sucre_quest_stage: number;
+  recipes_collected: RecipeId[];
+  ingredients_gathered: Record<IngredientId, number>;
+  original_recipe_complete: boolean;
+  party_events_attended: number;
+  candy_cascade_high_score: number;
+  kitchen_stars: number; // total stars earned
+}
+```
+
+### Visual Sugar Level
+- At low restoration, everything looks slightly "off"—colors muted, shapes drooping
+- As restoration increases, saturation and "bounce" increase
+- At max, everything has that "too perfect" candy commercial look
+- Subtle animation everywhere at high restoration (sparkles, bounces)
+
+### Sucre's Form
+- Sucre's appearance literally changes based on what player feeds them
+- Different ingredients change colors, shapes, expressions
+- Core personality remains, but visual identity is malleable
+- This is tied to their quest about identity and "flavor"

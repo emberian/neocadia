@@ -57,6 +57,28 @@ A street paved with hard candy, where buildings are made of cake. Lampposts are 
 
 ---
 
+## The First Magic Moment
+
+Sugar Rush Boulevard should hit the player with a question they don't expect: *Why is a party sad?*
+
+At first arrival, everything is too bright, too sweet, too *much*. The colors scream celebration. The candy sparkles. It should feel overwhelming.
+
+And then the player notices: the party stage is dark. The benches are empty. The chocolate fountain isn't flowing—it's still, congealed. The speakers are silent. This is a birthday party where no one came.
+
+The magic beat: Sucre appears, bright and welcoming, almost manic with excitement. "A VISITOR! Oh, we haven't had a party in SO LONG!" They're not sad—they're desperately hopeful. And that hope, set against all this empty festivity, lands harder than despair ever could.
+
+**Sensory anchor**: The silence. Every other zone has ambient sound, music, life. Sugar Rush Boulevard, at low restoration, should have an *almost-silence*—a single music box melody playing from somewhere, thin and distant. The echo of a party that used to fill this space. That absence of sound in a space built for celebration is the emotional anchor.
+
+**The uncanny sweetness**: Everything looks edible, perfect, delicious. But nothing has been eaten. The cakes in the window haven't been cut. The candy hasn't been unwrapped. There's a wrongness to unused sweetness—joy that was never claimed. At full restoration, the zone comes alive with consumption, celebration, *use*. The party finally happens.
+
+**The melting question**: As players spend time here, they should start to wonder: what is Sucre *made of*? The answer, when it comes, is uncomfortable. Sucre is made of moments—crystallized fragments of every party that ever happened here. Every birthday wish. Every celebration. Every joyful memory, compacted into sugar and sweetness. When no one comes to the parties, Sucre doesn't just get lonely. They get *less*. They start to forget what flavors they were made of.
+
+This is the zone's quiet horror, hidden under all that bubblegum: Sucre is literally dissolving without joy. Not dramatically—just slowly, the way a lollipop left in a drawer eventually becomes sticky and shapeless. The parties aren't just fun. They're survival. And Sucre knows it but can't admit it, because admitting it would make the sweetness taste like desperation.
+
+**The bridge to darkness**: Sugar Rush Boulevard sits next to the path to Glitch Garden. This is intentional. After the overwhelming, almost-too-much sweetness, the Garden's honest corruption feels like a relief. The player moves from a place that insists on joy to a place that admits to brokenness. And somehow, the brokenness feels more true.
+
+---
+
 ## Color Palette
 
 | Role | Color | Hex | Usage |

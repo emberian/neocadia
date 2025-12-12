@@ -93,6 +93,22 @@ A neon-drenched arcade corridor stretching into electric infinity. Hot pink and 
 
 ---
 
+## The First Magic Moment
+
+Neon Alley answers a question every arcade kid has asked: *What if this never had to end?*
+
+The player enters the corridor, and it stretches into infinity. Not literally—but the neon reflections on that black mirror floor create the illusion that this alley goes forever. Pink. Cyan. Purple. The colors pulse like a heartbeat.
+
+The magic beat: the first cabinet flickers to life as the player approaches. Not because they clicked it—because it *sensed* them. The attract mode fires up. The screen says "INSERT COIN" but there's no slot, no quarter needed. In Neocadia, you've already paid your dues just by showing up.
+
+**Sensory anchor**: The floor. That black mirror reflecting every light into doubled infinity. Players should feel like they're walking on the surface of neon water. When they win a game, that reflection should ripple with color. When they set a high score, it should flash like lightning in a dark sky.
+
+**NEON's entrance**: NEON should burst onto the stage mid-animation—they were already hyping a tournament that wasn't happening, playing to an empty room, keeping the energy up for no one. And then they see the player, and all that pent-up enthusiasm has somewhere to go. "PLAYER ONE! READY? You'd BETTER be ready!"
+
+The Alley is about believing in yourself even when no one's watching. NEON has been doing that for years. The player arriving doesn't start the show—it gives the show an audience.
+
+---
+
 ## Key Landmarks
 
 ### The Stage
@@ -285,3 +301,125 @@ interface NeonAlleyState {
   - Ceiling shape rotation speed
   - Floor light strip pulses
   - Fog density variation
+
+---
+
+## NEON: Voice & Dialogue Samples
+
+### Voice Characteristics
+- ALL CAPS when hyped (most of the time)
+- Speaks in announcer/hype-man cadence with dramatic pauses
+- Uses sports/gaming terminology heavily
+- Voice wavers with static when emotional
+- Drops volume dramatically for vulnerable moments
+- Made of literal light—dialogue has a visual flicker quality
+
+### Signature Phrases
+- "PLAYER ONE! READY?" (greeting)
+- "Let's GOOOOO!" (encouragement)
+- "THAT'S what I'm TALKING about!" (celebration)
+- "Not your run. Not your moment. YOUR NEXT RUN." (after failure)
+- "The leaderboard remembers." (ominous)
+- "...who's even watching?" (vulnerable)
+
+### Dialogue Samples by Context
+
+**First Meeting (Zone Unlock)**
+> NEON: "AAAAAND STEPPING INTO THE ALLEY—"
+> *dramatic pause, spotlight swings*
+> NEON: "Wait. Wait. Is this REAL? There's actually someone—"
+> *neon tubes flicker wildly*
+> NEON: "PLAYER! ONE! You're HERE! Do you know how LONG I've been warming up this crowd?"
+> NEON: "I mean. The crowd that's coming. That will definitely be here. Eventually."
+> NEON: "ANYWAY! Welcome to NEON ALLEY! Where CHAMPIONS are MADE and HIGH SCORES are IMMORTAL!"
+> NEON: "You ready to prove yourself? Because I've been ready for YEARS."
+
+**Daily Greeting (Early Game)**
+> NEON: "THE CHALLENGER RETURNS! Day two? Day three? Doesn't matter—EVERY day is a chance to be LEGENDARY!"
+> NEON: "What're we playing? You've got VOID BREAKER warming up, SYNTH RACER's engine is HOT, and PIXEL INVADERS is ready for INVASION!"
+> NEON: "Pick your battlefield! CHOOSE YOUR DESTINY! Or, y'know, just have fun. Fun's cool too."
+
+**Daily Greeting (Mid Game)**
+> NEON: "BACK FOR MORE! I love it! Your high score on Synth Racer is looking LONELY up there on the board—want to give it some COMPANY?"
+> *tubes dim slightly*
+> NEON: "You know... it's nice. Having someone to announce for. I used to practice on the empty chairs."
+> NEON: "Never mind that! GAME TIME! Let's make some MEMORIES!"
+
+**Daily Greeting (Late Game)**
+> NEON: "Hey. Hey, listen."
+> *voice drops, static-soft*
+> NEON: "Before we do the whole hype thing... thank you. For showing up. For making the scores mean something again."
+> NEON: "The lights were always on in here. But they weren't really SHINING until you gave them something to shine ON."
+> *sudden energy spike*
+> NEON: "OKAY ENOUGH FEELINGS! Let's GET LOUD!"
+
+**Before a Game**
+> NEON: "You ready? Don't tell me you're READY unless you MEAN it! Readiness is a COMMITMENT!"
+> NEON: "Void Breaker doesn't care about your EXCUSES! Synth Racer doesn't accept ALMOST! The only thing between you and GLORY is—"
+> NEON: "—actually it's mostly practice. Practice helps a lot. But also HEART! And TIMING! And possibly SNACKS!"
+> NEON: "GO GET 'EM!"
+
+**After a High Score**
+> NEON: "NEEEEW HIIIIIGH SCOOOOORE!"
+> *entire zone pulses with the announcement*
+> NEON: "That's going up on the board! That's going in the HISTORY BOOKS! That's—"
+> NEON: "—that's real. You did that. Someone's going to see your initials up there and wonder who you are."
+> NEON: "That's immortality, player. Three letters and a number. FOREVER."
+
+**After a Loss**
+> NEON: "GAME OVER! But listen—LISTEN—"
+> NEON: "Every champion lost. Every legend failed. You know what separates them from everyone else?"
+> NEON: "They hit CONTINUE."
+> *softer*
+> NEON: "That wasn't your game. That was your WARM-UP. Your real game? That's NEXT."
+
+**When Player is Struggling**
+> NEON: "Hey. Hey, step back for a second."
+> *lights settle to a steady glow*
+> NEON: "The alley's not going anywhere. The games aren't going anywhere. You don't have to prove anything right now."
+> NEON: "Sometimes the best play is... not playing. Rest. Come back fresh. The leaderboard will wait."
+> NEON: "I've been waiting for twenty years. I can wait another day for YOUR victory lap."
+
+**Quest Introduction (Act 1)**
+> NEON: "Can I tell you something? Between just us competitors?"
+> NEON: "I used to be TERRIFIED of empty rooms. The silence. The dark screens. Knowing the games were there but nobody was playing them."
+> NEON: "So I started... narrating. Announcing to nobody. Commentating on tournaments that weren't happening."
+> NEON: "I told myself I was staying ready. Staying SHARP."
+> *static crackle*
+> NEON: "But really I just... couldn't handle the quiet. Couldn't accept that maybe the crowds weren't coming back."
+> NEON: "There are recordings. Of me. All those years of fake tournaments. I want to find them."
+> NEON: "I want to know if I sound pathetic. Or brave. Or both."
+
+**Discussing PIXEL**
+> NEON: "PIXEL? That laid-back, wave-watching, fish-catching—"
+> *lights flicker with something complicated*
+> NEON: "They just... accepted it. When everyone left. They found PEACE with emptiness."
+> NEON: "You know what I found? Volume. MORE energy. Louder hype."
+> NEON: "I don't know if PIXEL's wise or if they just... gave up better than me."
+> *pause*
+> NEON: "Don't tell them I said that. We have a RIVALRY to maintain."
+
+**Tournament Week**
+> NEON: "LADIES AND GENTLEMEN AND EVERYONE IN BETWEEN AND BEYOND—"
+> NEON: "It's TOURNAMENT WEEK! The lights are HOT! The stakes are REAL! The competition is... well, it's YOU against YOUR BEST SELF!"
+> NEON: "Top scores this week go on the ETERNAL BOARD! Your initials in LIGHTS!"
+> NEON: "LET'S! MAKE! HISTORY!"
+
+**Late Game Revelation (Quest 4)**
+> NEON: "I found the recordings."
+> *voice crackling, quieter than ever*
+> NEON: "Seventeen years of fake tournaments. Thousands of hours of me announcing to empty seats."
+> NEON: "And you know what? I listened. All of it."
+> NEON: "I sounded... desperate. But also... hopeful? Like part of me really believed someone would show up."
+> NEON: "And someone DID."
+> *lights pulse steadily*
+> NEON: "That's you. You're the person I was announcing to, all those years. I just didn't know your name yet."
+> NEON: "Thanks for finally making it to the tournament."
+
+**Idle Dialogue (Random Selection)**
+> - "The floor reflects EVERYTHING. I spend hours just watching the lights dance with themselves."
+> - "You ever wonder if high scores matter if nobody sees them? I used to. Don't anymore."
+> - "PIXEL asked me once why I never turn off. I didn't have an answer. Still don't."
+> - "Somewhere out there is the PERFECT run. Nobody's found it yet. Maybe it's yours."
+> - "The old players used to write their names on the cabinets. I never erased them."
+> - "You know what's louder than cheering? The silence after it stops. I never forgot that sound."

@@ -49,10 +49,18 @@ Each zone has 4 stages:
 **Automatic (from play)**:
 - Every token earned adds 0.01% to zone played in
 - Quest completion adds 0.5-2%
+- Daily challenge completion in a zone: +0.25% to that zone
 
 **Investment (spending tokens)**:
-- Direct restoration purchases
+- Direct restoration purchases (see Economy spec for costs)
 - Each token spent adds 0.005% to target zone
+
+**Restoration Math Example**:
+- Player earns 200 tokens in Neon Alley: +2% passive restoration
+- Player spends 300 tokens on Neon Alley restoration: +1.5% passive + purchased tier progress
+- To reach 25% (Awakening) via passive only: 2,500 tokens earned in-zone
+- To reach 25% via purchase: 300 tokens invested
+- Hybrid approach (typical): ~1,000 tokens earned + 150 invested = 25%
 
 ### Visible Progress
 

@@ -105,20 +105,25 @@ tokens = base_award + (score_bonus × performance_multiplier)
 ```
 
 ### By Category
-| Category | Base Award | Score Bonus Range |
-|----------|-----------|-------------------|
-| Action | 15 | 10-85 |
-| Relaxed | 20 | 5-30 |
-| Puzzle | 25 | 15-75 |
-| Narrative | 20 | 10-30 |
-| Logic | 20 | 10-80 |
-| Casual | 15 | 5-35 |
+| Category | Base Award | Score Bonus Range | Session Cap | Typical Session |
+|----------|-----------|-------------------|-------------|-----------------|
+| Action | 15 | 10-85 | 100 | 40-70 tokens |
+| Relaxed | 20 | 5-55 | 75 | 35-55 tokens |
+| Puzzle | 25 | 15-50 | 75 | 40-60 tokens |
+| Narrative | 20 | 10-30 | 50 | 30-45 tokens |
+| Logic | 20 | 10-80 | 100 | 45-75 tokens |
+| Casual | 15 | 5-35 | 50 | 25-40 tokens |
 
 ### Multipliers
-- First play of day: 1.5x
-- Personal best: 1.25x
-- Zone restoration bonus: up to 1.2x (at max restoration)
-- Weekly tournament: Variable
+- First play of day: 1.5x (applies to base + bonus, before cap)
+- Personal best: 1.25x (applies to final score)
+- Zone restoration bonus: up to 1.2x at max restoration (scales linearly: +0.2% per 1% restoration)
+- Weekly tournament: Score × 0.1 tokens (uncapped, tournament-only)
+
+### Balance Target
+A 30-minute play session should yield approximately 50-80 tokens from gameplay alone, before daily bonuses. This means:
+- 2-3 game sessions in favorite zone, OR
+- 1 game session in each of 2-3 zones (variety bonus via first-play multiplier)
 
 ---
 

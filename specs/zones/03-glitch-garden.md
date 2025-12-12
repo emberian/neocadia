@@ -45,6 +45,30 @@ A garden where reality renders wrong, and the errors are beautiful. Roses bloom 
 
 ---
 
+## The First Magic Moment
+
+The player arrives through a door that... isn't quite right. The frame shifts as you pass through. And then—
+
+*Silence*. The constant hum of Neocadia goes quiet. The sky is wrong. A rose blooms in a color that doesn't exist. A waterfall falls *up*.
+
+This should be terrifying. Instead, it's beautiful.
+
+The magic beat: the player realizes they're not scared. They're *curious*. Something about this broken place feels honest. The glitches aren't hiding anything—they're showing truth that normal rendering can't capture.
+
+**Sensory anchor**: The Inverse Fountain. Amid all the chaos, water consistently flows upward in a perfect arc. It's wrong, but it's *reliably* wrong. The player can orient themselves by it. Just as VERA's eyes are her anchor, the fountain is the garden's: proof that even errors can have integrity.
+
+**The breath after arrival**: Before meeting VERA, the player should walk alone for a moment. Let the wrongness settle. Let them find it peaceful. Only then does VERA appear—and the player understands why she stays here. It's the only place in Neocadia that doesn't pretend to be something it's not.
+
+**The recognition moment**: At some point—perhaps not on the first visit, but eventually—the player should notice something impossible. A rose blooms in a color that feels familiar. Not from Neocadia. From *outside*. A color from the real world. And they realize: VERA remembers the real world. She was human, once. The glitches aren't random. They're memories bleeding through.
+
+This revelation should land softly—a quiet "oh" rather than a dramatic reveal. The Garden isn't just where errors go to be beautiful. It's where the creator went to remember what she was before she became this place.
+
+**The question of return**: The Garden is the only zone where the exit isn't immediately visible. The player has to want to leave. They have to choose to step away from VERA, from the truth, from the strange peace of accepted imperfection. Every departure from the Garden is a small choice: *I will go back to the world that pretends to be whole*.
+
+And every return to the Garden is permission: *Show me what's real*.
+
+---
+
 ## Color Palette
 
 | Role | Color | Hex | Usage |

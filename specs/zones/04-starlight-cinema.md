@@ -37,6 +37,24 @@ A 1920s movie palace that's seen better days but still holds magic. Velvet curta
 
 ---
 
+## The First Magic Moment
+
+Starlight Cinema asks a question that settles in your chest: *What happens to stories when no one is left to watch them?*
+
+The player enters through velvet curtains into darkness. Not threatening darkness—*reverent* darkness, the kind that falls before a show begins. Dust motes drift through a single beam of light from somewhere behind. And then the screen flickers.
+
+For a moment—just a moment—you see something. A face. A scene from a film that never existed, or maybe one that was forgotten so completely it exists only here. It's beautiful. It's gone before you can name what you saw.
+
+The magic beat: The projector coughs, and in that mechanical sputter, you hear something almost like a voice. Like someone trying to remember the words to introduce a show they've given a thousand times. CELIA's light is dim, but it reaches for the screen anyway—because that's what projectors do. They show stories. Even to empty rooms. Especially to empty rooms.
+
+**Sensory anchor**: The projector's hum. Not the whir of operation, but the *attempt*—a machine that wants to work, trying to remember how. At low restoration, the hum stutters, catches, nearly dies. Every game played winds CELIA back up. At full restoration, that hum becomes a purr of perfect mechanical contentment, and the stories finally have someone to see them.
+
+**The empty seats**: All those velvet chairs, facing the screen with infinite patience. They've been waiting. Some have dust on them that hasn't been disturbed in years. When the player sits in one, they should feel the weight of everyone who sat there before—all those people who came to lose themselves in stories. The chair doesn't remember them individually. But it remembers being *used*.
+
+**CELIA's entrance**: She doesn't greet the player immediately. First, she shows them something—a fragment of film, a few seconds of beauty. Her gift before her introduction. When she finally speaks, it's in quotes, borrowing other voices because she's forgotten her own. But the quotes she chooses *mean* something. She's still telling her story, just in borrowed words. The player's job is to help her find her own voice again.
+
+---
+
 ## Color Palette
 
 | Role | Color | Hex | Usage |

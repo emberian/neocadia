@@ -78,7 +78,17 @@ Idle/clicker with glitch theming. Plant corrupted seeds, wait for them to grow i
 ```
 tokens = floor(glitch_harvested / 20)
 ```
-Daily cap: 50 tokens
+
+**Token Limits**:
+- Per-harvest cap: 75 tokens (matches Glitch Garden zone cap)
+- Daily cap: 100 tokens (idle games should reward check-ins, not replace active play)
+- Offline cap: Maximum 8 hours of offline growth converted to tokens (prevents "set and forget" exploits)
+
+**Glitch-to-Token Math**:
+- At 4 starting plots with Static Sprouts (5 glitch/min each): 20 glitch/min = 1 token/min
+- Optimal mid-game (8 plots, mixed seeds): ~60 glitch/5min = 3 tokens/5min
+- Late-game (16 plots, all Error Blossoms): 2000 × 16 / 24 hours = ~1333 glitch/hour = ~67 tokens/hour
+- This makes idle play supplementary income, not the primary farm
 
 ---
 

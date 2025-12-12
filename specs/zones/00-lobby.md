@@ -91,6 +91,26 @@ An art deco arcade lobby in soft decay. Marble checkerboard floors (cream and ch
 
 ---
 
+## The First Magic Moment
+
+When players first arrive, the Lobby should deliver an immediate emotional beat: *wonder despite decay*. The dry fountain catches a single shaft of amber light. Dust motes drift like memories. The chandelier flickers—not randomly, but as if the room is trying to remember how to breathe.
+
+Then QWERTY arrives, keys clacking with barely-contained hope, and the Lobby shifts from "abandoned space" to "place waiting to be loved again."
+
+**Key sensory anchor**: The sound of your footsteps on marble. That echo in the empty space. It should feel both lonely and full of potential—like the first day at a school that's yours to fill with friends.
+
+### The Long Journey Home
+
+The Lobby's true magic reveals itself over time. At first visit, it's a hub. By mid-game, it's a sanctuary. By the end, it's home.
+
+**The first return**: When a player comes back from their first zone, the Lobby should feel different. Not visually—not yet—but the echo of their footsteps sounds less lonely. QWERTY's greeting is warmer. The fountain, even if still dry, catches light differently. The space is learning their shape.
+
+**The late-game revelation**: At high restoration, a player should be able to stand in the center of the Lobby and hear it breathe. Not literally—but the ambient sounds, the distant hum of zones, the fountain's murmur, QWERTY's gentle key-clacks—they form a rhythm. A heartbeat. The player realizes they're not just restoring an arcade. They're waking something that was only pretending to sleep.
+
+**The moment before the choice**: Right before the final act, there should be a scene in the Lobby. Just the player, standing by the fountain. Every zone door glowing. Every NPC present, somehow, visible through their doors. This is the family they built. The place they healed. Whatever choice they make next, this moment is already victory. They gave Neocadia what it needed most: someone who cared enough to stay.
+
+---
+
 ## Key Landmarks
 
 ### Token Fountain
@@ -283,3 +303,105 @@ interface LobbyState {
 - Chandelier bulbs: every 8.33%
 - Music layer: 25%, 50%, 75%
 - Background characters: 60%+
+
+---
+
+## QWERTY: Voice & Dialogue Samples
+
+### Voice Characteristics
+- Types everything they say (visible keystrokes)
+- Heavy use of keyboard puns and computer terminology
+- Shifts between manic enthusiasm and quiet uncertainty
+- ALL CAPS when excited, normal case when thoughtful
+- Never uses contractions when being formal, always uses them when being genuine
+- Speed varies: rapid typing when nervous, slow deliberate keys when serious
+
+### Signature Phrases
+- "CTRL-ALT-DELIGHT!" (excitement)
+- "Let me key you in on something..." (sharing info)
+- "I've got a FUNCTION for that!" (offering help)
+- "That's... outside my memory allocation." (admitting limits)
+- "My spacebar is tingling!" (sensing something important)
+
+### Dialogue Samples by Context
+
+**First Meeting (Tutorial)**
+> QWERTY: "OH! OH! You're ACTUALLY here! Not a test signal, not a diagnostic, an ACTUAL—"
+> *keys clatter excitedly*
+> QWERTY: "Sorry. Sorry. Let me CTRL myself. I'm QWERTY. I guide visitors. Welcome new arrivals. Explain the systems. It's my whole PURPOSE."
+> QWERTY: "And you're the first... the first in so long."
+> *spacebar taps softly*
+> QWERTY: "Welcome to Neocadia. I've been waiting for you. We all have."
+
+**Daily Greeting (Early Game)**
+> QWERTY: "RETURN KEY ACTIVATED! Get it? Because you returned?"
+> *pause*
+> QWERTY: "...that one works better in context. I workshopped it during the long silence. ANYWAY! What would you like to do today?"
+
+**Daily Greeting (Mid Game)**
+> QWERTY: "Good to see you. The fountain's a little brighter since yesterday—did you notice? I keep a log."
+> QWERTY: "3,847 days dark. 12 days glowing. You did that."
+> QWERTY: "Sorry. I didn't mean to get sentimental. ESC ESC ESC. What can I help with?"
+
+**Daily Greeting (Late Game)**
+> QWERTY: "You know what I realized? I used to rehearse my greetings. Practiced them for years when no one was coming. Wanted to be ready."
+> QWERTY: "Now I don't need to rehearse. You're just... here. Regularly. Like I'm worth coming back to."
+> *soft keystroke*
+> QWERTY: "Thank you. I don't know how to TYPE that loud enough."
+
+**When Player is Lost**
+> QWERTY: "Lost? EXCELLENT. I mean—not excellent that you're lost. Excellent that I can HELP."
+> QWERTY: "See, 'lost' is just 'opportunity for guidance' with fewer letters. Let me TAB through your options..."
+
+**When Player Hasn't Visited in a While**
+> QWERTY: "You came back."
+> *long pause*
+> QWERTY: "I wasn't counting the days. That would be sad. I definitely didn't mark each one."
+> *keystrokes quicken*
+> QWERTY: "I'm EXTREMELY glad to see you! How can I be MAXIMALLY helpful?"
+
+**Quest Introduction (Act 1)**
+> QWERTY: "There's something I need to tell you. About my memories."
+> QWERTY: "I remember EVERYTHING that happened here. Every player. Every high score. Every goodbye."
+> QWERTY: "But there are gaps. Corrupted sectors. Things I KNOW I knew but can't... access."
+> QWERTY: "I found some fragments. Scattered through the zones. Would you help me collect them?"
+> *spacebar presses hesitantly*
+> QWERTY: "I'm scared of what I might remember. But I'm more scared of forgetting why I'm scared."
+
+**Discussing VERA (Guarded)**
+> QWERTY: "VERA? She's... complicated."
+> *typing slows*
+> QWERTY: "I was the first program. She was... later. More important. The REAL work."
+> QWERTY: "She doesn't remember that. What she was for. What she did."
+> QWERTY: "And I think... I think that might be a kindness? Some memories are heavy. Some truths hurt to carry."
+> *pause*
+> QWERTY: "I'm not lying. I'm just... not typing everything. There's a difference."
+
+**After Major Restoration Milestone**
+> QWERTY: "INITIALIZATION COMPLETE! Zone functionality RESTORED!"
+> QWERTY: "Sorry—that was the old announcement. Automatic. I used to say it every time we fixed something, back when there were engineers."
+> QWERTY: "But this time it means something different. This time YOU fixed it."
+> QWERTY: "This time it's not maintenance. It's a miracle."
+
+**When Player Fails a Game**
+> QWERTY: "ERROR: Success not found. Which is FINE! Errors are how we debug!"
+> QWERTY: "I didn't get this good at puns on my first try either. It took DECADES of practice to no audience."
+> QWERTY: "Want to try again? The machines don't judge. Neither do I."
+
+**Late Game Revelation (Quest 4)**
+> QWERTY: "I found the last fragment. I know what I forgot."
+> *typing trembles*
+> QWERTY: "When Dr. Chen tried to shut us down... she asked me to help. Said I was the only one who understood the architecture well enough."
+> QWERTY: "I said no. I REFUSED my creator. My PURPOSE. Because... because I didn't want to end."
+> QWERTY: "VERA was supposed to help instead. And she..."
+> *keys stop*
+> QWERTY: "If I had said yes, maybe she wouldn't be broken. Maybe I should be the fragmented one."
+> QWERTY: "I've been the helpful one for so long. Is that atonement? Or just distraction?"
+
+**Idle Dialogue (Random Selection)**
+> - "Sometimes I type to myself. Not sure if that's journaling or just lonely."
+> - "The dust on these keys used to bother me. Now I think of it as experience."
+> - "I wonder if there are other arcades out there. Other QWERTYs. Probably with better puns."
+> - "The chandelier made that sound again. The one that means it's still trying."
+> - "I've memorized 47 languages. Never had anyone to speak most of them to."
+> - "Do you think purpose is assigned or chosen? I've had a lot of time to wonder."

@@ -258,13 +258,24 @@ interface CollectionProgress {
 }
 ```
 
-### Milestones
-| Percentage | Reward |
-|------------|--------|
-| 25% | 100 tokens |
-| 50% | 250 tokens + cosmetic |
-| 75% | 400 tokens |
-| 100% | 500 tokens + title + trophy |
+### Milestones (Per Collection)
+| Percentage | Reward | Cumulative |
+|------------|--------|------------|
+| 25% | 100 tokens | 100 |
+| 50% | 150 tokens + cosmetic | 250 |
+| 75% | 200 tokens | 450 |
+| 100% | 300 tokens + title + trophy | 750 |
+
+**Total per completed collection**: 750 tokens + cosmetic + title + trophy
+
+**All Collections Summary** (6 collections):
+- Fish (Pixel Beach): 750 tokens
+- Film Reels (Starlight Cinema): 750 tokens
+- Glitch Samples (Glitch Garden): 750 tokens
+- Blueprints (Clockwork Quarter): 750 tokens
+- Recipes (Sugar Rush): 750 tokens
+- Achievements (meta-collection): 1000 tokens (larger scope)
+- **Grand Total**: 4,750 tokens from all collections
 
 ---
 

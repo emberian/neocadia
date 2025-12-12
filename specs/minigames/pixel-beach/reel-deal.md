@@ -136,7 +136,9 @@ Cast your line, wait for a bite, time your catch. Simple rhythm, satisfying feed
 ```
 tokens = sum(fish_values) + bonuses
 ```
-No cap (encourages long sessions)
+**Session Cap**: 75 tokens per session (aligned with Pixel Beach zone cap)
+
+**Design Note**: While fishing's relaxed nature encourages long sessions, uncapped rewards would create an exploit. The cap is soft—players can keep fishing for collection progress and the joy of it, but token rewards plateau. New species catches bypass the cap (rewarding exploration over grinding).
 
 ---
 

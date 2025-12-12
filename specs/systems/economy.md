@@ -43,9 +43,19 @@ tokens = base_award + (score_bonus × performance_multiplier)
 
 #### Session Caps
 To prevent burnout and maintain balance:
-- Most games: 50-100 tokens per session
+
+| Zone | Session Cap | Rationale |
+|------|-------------|-----------|
+| Neon Alley | 100 | High-skill competitive play rewards dedication |
+| Pixel Beach | 75 | Relaxed but not infinitely farmable |
+| Glitch Garden | 75 | Puzzle solutions are finite per session |
+| Starlight Cinema | 50 | Narrative content is limited |
+| Clockwork Quarter | 100 | Complex logic games deserve payout |
+| Sugar Rush Boulevard | 50 | Quick casual sessions |
+
 - No hard limit on sessions per day
-- Diminishing returns after ~1 hour on single game
+- **Diminishing Returns**: After 45 minutes on a single game, token earn rate drops to 50%. After 90 minutes, drops to 25%. Timer resets after 2 hours away from that specific game.
+- **Daily Soft Cap**: After earning 500 tokens from gameplay in one day, all rates drop to 50%. Bonuses (daily, weekly, quest) are unaffected.
 
 ### Daily Bonuses
 | Source | Amount | Reset |
@@ -60,9 +70,14 @@ To prevent burnout and maintain balance:
 | Source | Amount | Reset |
 |--------|--------|-------|
 | Tournament participation | 50 | Weekly |
-| Tournament top 10 | 200 | Weekly |
+| Tournament top 50% | 75 | Weekly |
+| Tournament top 25% | 125 | Weekly |
+| Tournament top 10% | 200 | Weekly |
+| Tournament top 10 players | 300 | Weekly |
+| Tournament #1 | 500 + exclusive cosmetic | Weekly |
 | Featured film completion | 75 | Weekly |
-| Collection milestone | Variable | On achieve |
+| Featured film perfect score | 150 | Weekly |
+| 7-day login streak | 200 | Weekly |
 
 ### Quest Rewards
 | Quest Type | Range |
@@ -94,13 +109,19 @@ To prevent burnout and maintain balance:
 ### Restoration Spending
 Each zone has restoration tiers requiring cumulative tokens:
 
-| Tier | Lobby | Other Zones |
-|------|-------|-------------|
-| Flickering → Awakening | 1000 | 500 |
-| Awakening → Thriving | 2500 | 1500 |
-| Thriving → Radiant | 5000 | 3000 |
+| Tier | Lobby | Other Zones | Total to Radiant |
+|------|-------|-------------|------------------|
+| Flickering → Awakening (25%) | 500 | 300 | - |
+| Awakening → Thriving (50%) | 1500 | 800 | - |
+| Thriving → Radiant (100%) | 3000 | 1500 | - |
+| **Per Zone Total** | **5000** | **2600** | - |
 
-**Note**: Tokens spent on restoration are *invested*, not lost. They become part of the world.
+**Full Restoration Cost Breakdown**:
+- Lobby: 5,000 tokens
+- 6 Other Zones: 6 × 2,600 = 15,600 tokens
+- **Total to 100% Restoration**: 20,600 tokens
+
+**Note**: Tokens spent on restoration are *invested*, not lost. They become part of the world. Restoration also gains passively: every token earned adds 0.01% to the zone played in, and every token spent adds 0.005% to the target zone.
 
 ### Cosmetics
 | Category | Range | Examples |
@@ -135,12 +156,29 @@ Each zone has restoration tiers requiring cumulative tokens:
 
 ### Progression Timeline
 
-**Casual Player Path**:
-- Week 1: Pixel Beach fully explored, Neon Alley unlocked
-- Week 2-3: Two more zones unlocked
-- Month 1: All zones accessible, 50% restoration
-- Month 2-3: 75% restoration, most cosmetics available
-- Month 3-4: Full restoration achievable
+**Casual Player Path** (30 min/day, ~175 tokens/day average):
+
+| Milestone | Tokens Needed | Days | Week |
+|-----------|---------------|------|------|
+| Neon Alley unlock | 500 | 3 | Week 1 |
+| Sugar Rush unlock (25% resto) | 750 + ~500 resto | 7 | Week 1-2 |
+| Clockwork Quarter unlock | 1000 + ~700 resto | 10 | Week 2 |
+| Starlight Cinema unlock | 1500 + ~900 resto | 14 | Week 2-3 |
+| Glitch Garden unlock | 2000 + ~1200 resto | 18 | Week 3 |
+| All zones Awakening (25%) | ~3000 resto | 25 | Week 4 |
+| All zones Thriving (50%) | ~8000 resto | 45 | Week 6-7 |
+| 100% Restoration | ~20,600 total | 90-120 | Month 3-4 |
+
+**Validation Math**:
+- Zone unlocks total: 500 + 750 + 1000 + 1500 + 2000 = 5,750 tokens
+- Restoration total: 20,600 tokens
+- Cosmetics (optional): ~3,000 tokens for decent collection
+- **Grand Total to "Complete"**: ~29,350 tokens
+- At 175 tokens/day casual: 168 days (~5.5 months)
+- At 350 tokens/day regular: 84 days (~3 months)
+- At 600 tokens/day dedicated: 49 days (~7 weeks)
+
+This pacing ensures casual players can see credits in 3-4 months while dedicated players reach endgame in under 2 months.
 
 ### Anti-Grind Measures
 - Base awards are substantial (not dependent on high scores)
@@ -224,3 +262,63 @@ interface EconomyState {
 - Track median time to milestones
 - Watch for frustration patterns
 - Survey player satisfaction
+
+---
+
+## System Integration
+
+### The Core Loop: Tokens → Restoration → Unlocks → Content → Tokens
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                         PLAY                                 │
+│   ┌─────────────┐    ┌──────────────┐    ┌─────────────┐   │
+│   │  Minigames  │───▶│   Tokens     │───▶│ Restoration │   │
+│   └─────────────┘    └──────────────┘    └─────────────┘   │
+│         ▲                   │                    │          │
+│         │                   │                    ▼          │
+│         │                   │            ┌─────────────┐   │
+│         │                   │            │Zone Unlocks │   │
+│         │                   │            └─────────────┘   │
+│         │                   │                    │          │
+│         │                   ▼                    ▼          │
+│   ┌─────────────┐    ┌──────────────┐    ┌─────────────┐   │
+│   │  New Games  │◀───│  Cosmetics   │◀───│   Story     │   │
+│   └─────────────┘    └──────────────┘    └─────────────┘   │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### Dead End Prevention
+
+**Identified Risk**: Player spends all tokens on cosmetics early, can't afford zone unlocks.
+**Solution**: Zone unlocks and restoration are separate "investment" transactions that feel different from "spending" on cosmetics. UI distinction: "Invest" vs "Purchase".
+
+**Identified Risk**: Player focuses only on one zone, doesn't see restoration progress elsewhere.
+**Solution**: Passive restoration (0.01% per token earned anywhere) and first-play-of-day bonuses encourage variety.
+
+**Identified Risk**: New player overwhelmed by token sinks, doesn't know what to prioritize.
+**Solution**: QWERTY provides gentle guidance: "The Lobby fountain could use some attention..." / "Neon Alley is calling to you!"
+
+### Cross-System Hooks
+
+| Trigger | System A | System B | Effect |
+|---------|----------|----------|--------|
+| Token earned | Economy | Restoration | +0.01% to zone played |
+| Token spent | Economy | Restoration | +0.005% to target zone |
+| Zone unlock | Economy | Progression | New quests available |
+| Restoration 25% | Restoration | Story | NPC awakens |
+| Restoration 50% | Restoration | Story | Deep quests unlock |
+| Collection complete | Collections | Economy | 750 token reward |
+| Character quest done | Story | Economy | 100-500 token reward |
+| Daily challenge done | Daily | Economy | 100 tokens |
+| Tournament entry | Weekly | Economy | 50+ tokens |
+
+### Exploit Watchlist
+
+| Potential Exploit | Mitigation |
+|-------------------|------------|
+| Fishing infinite farm | Session cap of 75 tokens |
+| Idle game AFK farm | 8-hour offline cap, 100 daily cap |
+| Multi-account tournaments | Account age requirements for ranked rewards |
+| Consumable stockpiling | Consumables are session-use only, don't stack excessively |
+| Token sinks exhausted late-game | New Game Plus resets restoration, cosmetics expand with updates |

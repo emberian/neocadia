@@ -45,6 +45,26 @@ A steampunk quarter where Victorian engineering meets circuit boards. Brass gear
 
 ---
 
+## The First Magic Moment
+
+Clockwork Quarter asks something the logical mind craves: *What if everything worked exactly as it should?*
+
+The player arrives and the first thing they notice is the silence. Not absence—*potential*. Everything is still. Gears frozen mid-turn. Pistons paused mid-stroke. Steam held in vents. The whole zone is a machine waiting for permission to move.
+
+And then, somewhere deep in the mechanism, something *ticks*.
+
+One gear. Then another. Like a heart remembering how to beat. The player's presence is winding up a system that had almost forgotten motion. Not because they clicked anything—because they *came*. Because someone showed up to appreciate what the gears could do.
+
+The magic beat: Professor Cog is frozen when you arrive—actually frozen, caught in the middle of reaching for a tool, explaining a concept, solving a problem. As the zone awakens around your presence, he unsticks. But slowly. First a twitch of a finger. Then a head turning, confused, like waking from a dream of motion. "Ah. Yes. Where was I?" He doesn't know how long he was stopped. He doesn't want to know.
+
+**Sensory anchor**: The first complete tick-tock. When the master clock finally achieves one full cycle—gear to gear to piston to steam to motion back to gear—there's a moment of mechanical perfection. Everything synchronized. Everything purposeful. At low restoration, this happens rarely and breaks apart. At full restoration, the entire zone becomes an orchestra of mechanism, and that tick-tock becomes a symphony.
+
+**The Great Engine glimpse**: At some point early in the Quarter, the player should glimpse the Engine Room door. Just for a moment. And from behind it, they might hear—or imagine they hear—a deeper sound. The heartbeat that could power all of this forever. The promise of a machine that never needs winding. Cog doesn't talk about it directly. Not yet. But he glances at that door sometimes, and his gears skip.
+
+**The satisfaction of precision**: Every other zone in Neocadia has beautiful imperfection. The Beach's waves are irregular. The Garden's glitches are chaotic. Even the Cinema's films skip. Clockwork Quarter is the *one zone* where everything can be exactly right. That precision isn't cold—it's a relief. It's proof that chaos isn't the only answer. Some things can be fixed. Some puzzles have solutions. The player should feel that certainty like a warm hug for their analytical mind.
+
+---
+
 ## Color Palette
 
 | Role | Color | Hex | Usage |

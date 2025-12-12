@@ -14,9 +14,9 @@ Usage:
 """
 
 import subprocess
-import json
 import argparse
 import sys
+import threading
 from pathlib import Path
 from dataclasses import dataclass, field
 from typing import Optional
@@ -237,10 +237,23 @@ class PipelineResult:
         return all(r.success for r in self.results)
 
 
+def stream_output(pipe, prefix: str, output_lines: list[str]):
+    """Stream output from a pipe, printing each line with a prefix."""
+    try:
+        for line in iter(pipe.readline, ''):
+            if line:
+                print(f"{prefix}{line}", end='', flush=True)
+                output_lines.append(line)
+    except Exception:
+        pass
+    finally:
+        pipe.close()
+
+
 def run_claude_agent(
     prompt: str,
     working_dir: Path,
-    timeout_seconds: int = 300,
+    timeout_seconds: int = 1800,
     dry_run: bool = False,
 ) -> tuple[bool, str, float]:
     """
@@ -256,28 +269,62 @@ def run_claude_agent(
 
     try:
         # Invoke claude CLI with the prompt
-        result = subprocess.run(
+        # Use -p to pass prompt directly (not via stdin) to avoid interactive mode
+        process = subprocess.Popen(
             [
                 "claude",
-                "--print",  # Print output to stdout
+                "-p", prompt,  # Pass prompt as argument, runs non-interactively
                 "--dangerously-skip-permissions",  # Auto-approve file edits
             ],
-            input=prompt,
-            capture_output=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
             text=True,
             cwd=working_dir,
-            timeout=timeout_seconds,
+            bufsize=1,  # Line buffered
         )
 
+        # Collect output while streaming to console
+        stdout_lines: list[str] = []
+        stderr_lines: list[str] = []
+
+        # Start threads to stream stdout and stderr
+        stdout_thread = threading.Thread(
+            target=stream_output,
+            args=(process.stdout, "  │ ", stdout_lines),
+            daemon=True,
+        )
+        stderr_thread = threading.Thread(
+            target=stream_output,
+            args=(process.stderr, "  │ ", stderr_lines),
+            daemon=True,
+        )
+
+        stdout_thread.start()
+        stderr_thread.start()
+
+        # Wait for process with timeout
+        try:
+            process.wait(timeout=timeout_seconds)
+        except subprocess.TimeoutExpired:
+            process.kill()
+            process.wait()
+            duration = (datetime.now() - start).total_seconds()
+            return False, f"Timeout after {timeout_seconds}s", duration
+
+        # Wait for output threads to finish
+        stdout_thread.join(timeout=5)
+        stderr_thread.join(timeout=5)
+
         duration = (datetime.now() - start).total_seconds()
-        success = result.returncode == 0
-        output = result.stdout if success else result.stderr
+        success = process.returncode == 0
+
+        # Combine stdout and stderr for full output record
+        output = "".join(stdout_lines)
+        if stderr_lines:
+            output += "\n[stderr]\n" + "".join(stderr_lines)
 
         return success, output, duration
 
-    except subprocess.TimeoutExpired:
-        duration = (datetime.now() - start).total_seconds()
-        return False, f"Timeout after {timeout_seconds}s", duration
     except FileNotFoundError:
         return False, "Claude CLI not found. Install with: npm install -g @anthropic-ai/claude-code", 0.0
     except Exception as e:
@@ -305,13 +352,15 @@ def run_agent(
     agent: DesignAgent,
     context: dict,
     working_dir: Path,
+    timeout_seconds: int = 1800,
     dry_run: bool = False,
 ) -> IterationResult:
     """Run a single design agent."""
     print(f"\n{'='*60}")
     print(f"  {agent.name}")
     print(f"  Focus: {', '.join(agent.focus_areas)}")
-    print(f"{'='*60}\n")
+    print(f"{'='*60}")
+    print(f"  ┌─ Claude output ─────────────────────────────────────────")
 
     # Build the prompt
     prompt = agent.build_prompt(context)
@@ -323,22 +372,23 @@ def run_agent(
     success, output, duration = run_claude_agent(
         prompt=prompt,
         working_dir=working_dir,
+        timeout_seconds=timeout_seconds,
         dry_run=dry_run,
     )
+
+    print(f"  └────────────────────────────────────────────────────────")
 
     # Track files after
     files_after = set(get_git_modified_files(working_dir))
     files_modified = list(files_after - files_before)
 
-    # Extract summary (last paragraph of output, roughly)
-    summary = output[-500:] if len(output) > 500 else output
-
+    # Store full output for logging, not just truncated summary
     result = IterationResult(
         agent=agent.role,
         success=success,
         duration_seconds=duration,
         files_modified=files_modified,
-        summary=summary,
+        summary=output,  # Store full output
         error=None if success else output,
     )
 
@@ -359,6 +409,7 @@ def run_pipeline(
     max_iterations: int,
     focus_area: str,
     working_dir: Path,
+    timeout_seconds: int = 1800,
     dry_run: bool = False,
 ) -> PipelineResult:
     """Run a complete pipeline of agents."""
@@ -393,6 +444,7 @@ def run_pipeline(
             agent=agent,
             context=context,
             working_dir=working_dir,
+            timeout_seconds=timeout_seconds,
             dry_run=dry_run,
         )
         result.results.append(agent_result)
@@ -490,8 +542,8 @@ Examples:
     parser.add_argument(
         "--timeout",
         type=int,
-        default=300,
-        help="Timeout per agent in seconds (default: 300)"
+        default=1800,
+        help="Timeout per agent in seconds (default: 1800)"
     )
 
     args = parser.parse_args()
@@ -510,6 +562,7 @@ Examples:
 ╠══════════════════════════════════════════════════════════════╣
 ║  Pipeline:    {args.pipeline:<46} ║
 ║  Iterations:  {args.iterations:<46} ║
+║  Timeout:     {f'{args.timeout}s per agent':<46} ║
 ║  Focus:       {args.focus[:44]:<46} ║
 ║  Working dir: {str(working_dir)[:44]:<46} ║
 ╚══════════════════════════════════════════════════════════════╝
@@ -531,6 +584,7 @@ Examples:
             max_iterations=args.iterations,
             focus_area=args.focus,
             working_dir=working_dir,
+            timeout_seconds=args.timeout,
             dry_run=args.dry_run,
         )
         all_results.append(result)

@@ -84,6 +84,13 @@ tokens = floor(glitch_harvested / 20)
 - Daily cap: 100 tokens (idle games should reward check-ins, not replace active play)
 - Offline cap: Maximum 8 hours of offline growth converted to tokens (prevents "set and forget" exploits)
 
+**Daily Reset Mechanics**:
+- Daily token counter resets at midnight UTC
+- Offline accumulation tracked separately from active play
+- If offline cap (8 hours) would exceed daily cap (100 tokens), daily cap takes precedence
+- Example: Player leaves for 24 hours → only 8 hours of growth credited → capped at 100 tokens for that day
+- Glitch resources (for upgrades) are NOT capped—only token conversion is limited
+
 **Glitch-to-Token Math**:
 - At 4 starting plots with Static Sprouts (5 glitch/min each): 20 glitch/min = 1 token/min
 - Optimal mid-game (8 plots, mixed seeds): ~60 glitch/5min = 3 tokens/5min

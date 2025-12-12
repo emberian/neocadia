@@ -105,8 +105,10 @@ A keyboard floats toward you, keys clacking.
 ### ACT 2: REMEMBERING
 
 **Chapters**: 4-6
-**Zones Available**: All except Glitch Garden
+**Zones Available**: All except Glitch Garden (zones unlock progressively as restoration increases—see Economy spec for prerequisites)
 **Restoration Range**: 25-60%
+
+> **Note**: Players unlock zones progressively during Act 2. Sugar Rush (25%), Clockwork Quarter (35%), and Starlight Cinema (45%) become available as overall restoration increases. The narrative accommodates players having different zones available at different times.
 
 #### Chapter 4: The Clockwork Stutter
 
@@ -352,6 +354,40 @@ Three options, each with consequences:
 3. Attempt to recreate the formula
 4. Each failed attempt creates a new Sucre variant
 5. Final: Accept that Sucre is more than their recipe
+
+---
+
+## NPC Travel Rules
+
+NPCs are primarily zone-bound but can travel for story events.
+
+### Default Positions
+| NPC | Home Zone | Default Location |
+|-----|-----------|------------------|
+| QWERTY | Lobby | Registry Desk |
+| NEON | Neon Alley | Stage |
+| PIXEL | Pixel Beach | Shack |
+| CELIA | Starlight Cinema | Projection Room |
+| COG | Clockwork Quarter | Workshop |
+| SUCRE | Sugar Rush | Candy Stand |
+| VERA | Glitch Garden | VERA's Willow |
+
+### Travel Permissions
+- **QWERTY**: Can follow player to any zone for tutorial moments and story beats
+- **NEON, PIXEL, CELIA, COG, SUCRE**: Can travel to Lobby for gatherings (Act 3+, story triggers)
+- **VERA**: Cannot leave Glitch Garden until Act 4 (her fragmented state prevents travel)
+
+### When NPCs Gather (Lobby)
+Story triggers that bring NPCs together:
+- Act 3 revelation scene (all NPCs learn about VERA)
+- Act 4 final choice scene (all NPCs present in Engine Room/Lobby)
+- Individual NPCs may appear in Lobby for quest handoffs
+
+### Implementation
+- NPCs teleport between zones (no walking animation needed)
+- Travel happens during scene transitions
+- Player cannot witness NPCs traveling
+- After story scenes, NPCs return to home zones
 
 ---
 

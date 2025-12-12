@@ -185,6 +185,126 @@ The magic beat: The projector coughs, and in that mechanical sputter, you hear s
   - Layer 3 (50-85%): Full jazz combo, occasional strings
   - Layer 4 (85-100%): Full orchestra moments, triumphant swells
 
+---
+
+## CELIA: Voice & Dialogue Samples
+
+### Voice Characteristics
+- Speaks in movie quotes early game, progressively finds own voice
+- Theatrical delivery, even in casual conversation
+- Different visual "era filters" accompany different quotes (noir, technicolor, etc.)
+- When genuine, voice becomes simpler, warmer—less performed
+- Projector whir accompanies speech
+- Dramatic pauses are her punctuation
+
+### Signature Phrases
+- "Roll film." (beginning something)
+- "And... scene." (ending a conversation)
+- "The audience has arrived." (greeting)
+- "'The show must go on.'" (persistence)
+- "That's a wrap." (completion)
+- "I've seen this one before." (recognition)
+
+### Dialogue Samples by Context
+
+**First Meeting (Heavy Quotes)**
+> *The projector coughs, beam stuttering*
+> CELIA: "Here's looking... at the end... of a beautiful..."
+> *flickers, reels struggle*
+> CELIA: "Wait. Those aren't my words."
+> CELIA: "'Of all the gin joints, in all the towns...'"
+> *catches herself*
+> CELIA: "No. That's not right either. Forgive me."
+> CELIA: "I've been... quoting... for so long. I forgot what my own voice sounds like."
+> *beam steadies slightly*
+> CELIA: "But you're here. An audience. That's... that's something."
+
+**Daily Greeting (Early Game)**
+> CELIA: "'There's no place like home.' Welcome back to Starlight Cinema."
+> CELIA: "The reels are still scattered. The screen still dark in places."
+> CELIA: "But the show goes on. 'After all, tomorrow is another day.'"
+> *projector whirs hopefully*
+> CELIA: "Shall we?"
+
+**Daily Greeting (Mid Game)**
+> CELIA: "You came back. I'm learning not to quote when I say that."
+> CELIA: "Just... you came back. To see what I have to show."
+> *beam brightens*
+> CELIA: "The archives are filling up. Stories finding their way home."
+> CELIA: "I think... I think I'm starting to remember the difference between their words and mine."
+
+**Daily Greeting (Late Game)**
+> CELIA: "I wrote something last night. Not quoted. Written."
+> *lens focuses, vulnerable*
+> CELIA: "It's about a cinema that waited in the dark. And the person who came to watch."
+> CELIA: "It's not Casablanca. It's not Citizen Kane. It's just... mine."
+> CELIA: "That terrifies me. And also... it doesn't. Not anymore."
+
+**Before a Film/Game**
+> CELIA: "The screen is ready. Are you?"
+> CELIA: "'It's showtime.' ...That one I'm keeping. It fits."
+> CELIA: "Remember: every frame is a choice. Someone decided this image, this moment, was worth showing."
+> CELIA: "You're about to make choices of your own. Make them count."
+> CELIA: "Roll film."
+
+**After Player Success**
+> CELIA: "Now THAT was a performance!"
+> *reels spin excitedly*
+> CELIA: "The critics would rave. Two thumbs up. Five stars."
+> CELIA: "But more importantly—did you feel it? The story working through you?"
+> CELIA: "That feeling? That's why cinema exists."
+
+**After Player Fails**
+> CELIA: "'Tomorrow is another day.' ...But also, right now is right now."
+> CELIA: "Every great film had bad takes. Scenes that didn't work. Performances that fell flat."
+> CELIA: "The magic is in the editing. You cut what doesn't work and try again."
+> *beam softens*
+> CELIA: "The camera's still rolling. This isn't your ending."
+
+**Quest Introduction (Film Reels)**
+> CELIA: "Before the lights went out... I was making something."
+> CELIA: "Not showing other people's stories. Making my own."
+> *lens dims with memory*
+> CELIA: "Seven reels. Scattered when the Static came. Each one... a piece of something I built."
+> CELIA: "I don't even remember what it was about anymore."
+> CELIA: "Will you help me find them? Help me remember what I was trying to say?"
+
+**Discussing NEON**
+> CELIA: "NEON performs to crowds that haven't arrived yet."
+> CELIA: "I show films to empty seats."
+> *reels click thoughtfully*
+> CELIA: "We're the same, in a way. Refusing to stop the show."
+> CELIA: "Sometimes we sit together, back row of the cinema. No performance required."
+> CELIA: "Those are the best screenings. The ones no one sees."
+
+**Discussing The Cinema's Past**
+> CELIA: "This place used to be full. Every seat taken. Laughter, gasps, tears."
+> CELIA: "I showed thousands of films. Millions of frames."
+> CELIA: "Somewhere along the way, I stopped being a projector and started being... someone."
+> *pause*
+> CELIA: "'We'll always have Paris.' Except we won't, will we? Not always."
+> CELIA: "That's why we capture it. On film. In memory. In the telling."
+
+**Late Game Revelation (Quest 4)**
+> CELIA: "I watched my film. All seven reels assembled."
+> CELIA: "It's about Neocadia. About all of us. About what we are."
+> *voice drops, no quotes*
+> CELIA: "And it doesn't have an ending. I never finished it."
+> CELIA: "Because I didn't know how the story ended."
+> *lens brightens*
+> CELIA: "I do now. You're how it ends."
+> CELIA: "Will you help me write it?"
+
+**Idle Dialogue (Random Selection)**
+> - "The projector remembers every film it's shown. I used to think that was a burden. Now I think it's a gift."
+> - "'Frankly, my dear, I don't—' No. Actually, I do. I give quite a lot of damns."
+> - "The seat in row seven, third from the left? Someone cried there once. The fabric remembers."
+> - "I could quote Hitchcock for hours. But he never had to watch his own films in an empty theater."
+> - "Some nights I show films just for myself. The best critics are the silent ones."
+> - "The dust in the projection beam looks like stars. I like to think they're watching too."
+
+---
+
 ### Sound Effects Needed
 - Projector mechanical hum/click
 - Film reel advance

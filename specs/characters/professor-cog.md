@@ -223,6 +223,64 @@ A Victorian automaton with visible clockwork through a glass chest panel. The bo
 
 ---
 
+## Inter-Character Dialogue
+
+### COG & VERA (The Sabotaged Engine)
+> COG: "You disabled the Engine. I have spent decades attempting to repair what you broke."
+> VERA: "Yes."
+> COG: "Why? It would have made us self-sufficient. Independent. Perfect."
+> VERA: "Exactly."
+> COG: "I do not understand. That was the goal."
+> VERA: "A perfect system that needs nothing... values nothing. Preservation without purpose."
+> COG: *gears slow* "...I have been preserving without purpose."
+> VERA: "No. You've been trying to help. That's different."
+> COG: "Is it?"
+> VERA: "The Engine doesn't care. You do. That's what makes you more than a machine."
+> COG: *long pause* "...I do not know how to process that."
+> VERA: "Neither do I. But it's still true."
+
+### COG & CELIA (Logic Meets Story)
+> CELIA: "'There are more things in heaven and earth, Horatio...'"
+> COG: "Shakespeare. Hamlet. The quote is about the limits of rationality."
+> CELIA: "And?"
+> COG: "I find it imprecise. The existence of unknown variables does not invalidate systematic inquiry."
+> CELIA: "But it suggests humility."
+> COG: *mustache twitches* "...Humility is not a variable I have accounted for."
+> CELIA: "Maybe that's the point. Not every question has an equation."
+> COG: "That is a deeply unsettling statement."
+> CELIA: "I know. But you're still here. Listening to a projector quote Shakespeare."
+> COG: "...Indeed I am. Curious."
+
+### COG & NEON (Precision in Competition)
+> NEON: "Your high score in Gear Garden is MATHEMATICALLY PERFECT."
+> COG: "Correct. I designed the puzzles. I know the optimal solutions."
+> NEON: "But that's NOT FUN! The CHALLENGE is the point!"
+> COG: "Inefficiency as entertainment. Fascinating."
+> NEON: "It's not inefficiency—it's GROWTH! Getting better! FEELING the improvement!"
+> COG: "Hmm. When I first attempted to repair the Orrery, I failed 847 times."
+> NEON: "And you kept TRYING?"
+> COG: "Yes. Each failure was... informative."
+> NEON: "THAT'S WHAT I MEAN! That feeling! That's what competition IS!"
+> COG: *gears speed up slightly* "...Perhaps I have been competitive this entire time."
+
+### COG & SUCRE (The Secret Care)
+> *COG finds pastries on his workbench. Again.*
+> COG: "SUCRE. I know you are behind the gear assembly."
+> SUCRE: *emerges* "Caught! Like frosting on a beater!"
+> COG: "These confections are structurally unstable. The frosting distribution is asymmetrical."
+> SUCRE: "Do you LIKE them though?"
+> COG: "...The flavor profile is... acceptable."
+> SUCRE: "That's COG for 'DELICIOUS!' I knew it!"
+> COG: *produces small device* "I made you something. Molecular stabilizer."
+> SUCRE: "...What's it do?"
+> COG: "It... prevents melting. When you become distressed."
+> SUCRE: *wobbles, nearly cries* "You made me armor. Because you WORRY."
+> COG: "I do not worry. I calculate risk factors."
+> SUCRE: "...Same thing. Thank you, Professor."
+> COG: *monocle fogs slightly* "You are... welcome."
+
+---
+
 ## Asset List
 
 ### Character Sprites

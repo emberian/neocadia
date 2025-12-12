@@ -75,7 +75,7 @@ Classic quiz game with multiple choice. Answer questions, earn points, climb lea
 ```
 tokens = 20 + floor(score / 200)
 ```
-Cap: 75 tokens per session
+Cap: 50 tokens per session (matches Starlight Cinema zone cap for Narrative games)
 
 ---
 
@@ -100,6 +100,65 @@ Cap: 75 tokens per session
 - Questions on movie screen
 - CELIA reacts to answers
 - Film transitions between questions
+
+### Visual Feedback
+| Event | Feedback |
+|-------|----------|
+| Answer selected | Button highlights, brief pulse |
+| Correct answer | Green glow, confetti burst, CELIA cheers |
+| Wrong answer | Red flash, button shakes, CELIA gasps |
+| Time running low | Timer turns red, pulse animation |
+| Streak reached | Streak counter glows, bonus indicator |
+| Life lost | Heart breaks animation |
+| Life gained | Heart appears with sparkle |
+
+### UI Layout
+```
+┌─────────────────────────────────────────────────────────────┐
+│  ❤️❤️❤️  Lives        SCORE: 1,250        ⏱️ 12s           │
+│                                                              │
+│  ┌────────────────────────────────────────────────────────┐ │
+│  │                                                        │ │
+│  │  Which 1984 film features a DeLorean time machine?     │ │
+│  │                                                        │ │
+│  └────────────────────────────────────────────────────────┘ │
+│                                                              │
+│  ┌─────────────────────┐  ┌─────────────────────┐          │
+│  │  1. The Terminator  │  │  2. Ghostbusters    │          │
+│  └─────────────────────┘  └─────────────────────┘          │
+│  ┌─────────────────────┐  ┌─────────────────────┐          │
+│  │  3. Back to Future  │  │  4. Gremlins        │          │
+│  └─────────────────────┘  └─────────────────────┘          │
+│                                                              │
+│  Streak: 🔥 3                    Press 1-4 to answer        │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**Key UX note**: Answer buttons show number keys (1-4) for keyboard users.
+
+---
+
+## Audio
+
+### Music
+- Starlight Cinema ambient (dramatic, orchestral)
+- Tension build as timer counts down
+- Victory sting on correct answer
+- Dramatic chord on wrong answer
+
+### Sound Effects
+| Event | Sound |
+|-------|-------|
+| Question appear | Film projector click |
+| Answer hover | Soft note |
+| Answer select | Click |
+| Correct | Triumphant chord + chime |
+| Wrong | Descending notes + buzz |
+| Timer warning | Ticking accelerates |
+| Time up | Bell toll |
+| Streak bonus | Rising arpeggio |
+| Life gained | Sparkle chime |
+| Game over | Sad film reel wind-down |
 
 ---
 

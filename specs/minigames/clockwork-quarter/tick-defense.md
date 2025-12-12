@@ -81,9 +81,24 @@ Tower defense with clockwork aesthetics. Place turrets along paths, upgrade them
 
 ### Token Conversion
 ```
-tokens = 20 + floor(waves_cleared × 3)
+tokens = 20 + floor(waves_cleared × 2.5) + floor(perfect_waves × 2)
 ```
+Where `perfect_waves` = waves with no enemies reaching the end
+
+**Scaling**:
+- Waves 1-10: Full value (2.5 per wave)
+- Waves 11-20: 75% value (1.875 per wave)
+- Waves 21+: 50% value (1.25 per wave)
+
+**Example Sessions**:
+- Clear 10 waves (no perfects): 20 + 25 = 45 tokens
+- Clear 10 waves (all perfect): 20 + 25 + 20 = 65 tokens
+- Clear 20 waves (all perfect): 20 + 43 + 40 = 103 → capped at 100 tokens
+- Clear 30+ waves: Still 100 tokens (cap reached)
+
 Cap: 100 tokens per session
+
+**Design Rationale**: Linear scaling created an infinite grind incentive. Diminishing returns after wave 10 rewards skill (perfect clears) over pure endurance while the hard cap prevents burnout farming.
 
 ---
 

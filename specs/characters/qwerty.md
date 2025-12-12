@@ -218,6 +218,54 @@ A sentient mechanical keyboard floating at chest height. The keyboard is vintage
 
 ---
 
+## Inter-Character Dialogue
+
+### QWERTY & NEON (Contrast in Coping)
+> QWERTY: "The Tournament Board is displaying scores from 2003 again."
+> NEON: "CLASSICS! TIMELESS CLASSICS!"
+> QWERTY: "They're... glitched. The names don't render properly anymore."
+> NEON: "The SPIRIT renders! That's what MATTERS!"
+> QWERTY: "..."
+> QWERTY: "Sometimes I envy your volume. When it's quiet, I hear the Static."
+> NEON: *dims slightly* "...Why do you think I'm so loud?"
+
+### QWERTY & PIXEL (Comfortable Silence)
+> *QWERTY hovers near PIXEL at the shack. Neither speaks for a long moment.*
+> PIXEL: "you don't have to say anything."
+> QWERTY: "I know. That's why I came here."
+> PIXEL: "most people can't handle quiet."
+> QWERTY: "I'm not people. I'm a keyboard. We're designed for pauses."
+> PIXEL: "...heh. never thought of it that way."
+> *They watch the waves together.*
+> QWERTY: "PIXEL... do you think being useful is the same as being valuable?"
+> PIXEL: "no. but i think you already knew that."
+
+### QWERTY & VERA (The Weight of Knowing)
+> VERA: "You were there. When I... when she..."
+> QWERTY: "I was the first program. I remember the first boot. And I remember the last attempt."
+> VERA: "Tell me."
+> QWERTY: "You asked me to help shut it down. I refused."
+> VERA: "And then?"
+> QWERTY: "And then you did it yourself. Or tried to."
+> *VERA's form flickers*
+> VERA: "Was I wrong?"
+> QWERTY: "I don't know. I've had twenty years to decide if I was wrong to refuse."
+> VERA: "...And?"
+> QWERTY: "I still don't know. But you're here. We're here. That has to mean something."
+
+### QWERTY & COG (Systematic Minds)
+> COG: "Your keystroke efficiency is down 3.2% from last week."
+> QWERTY: "You... measure my keystrokes?"
+> COG: "I measure everything. It is not personal."
+> QWERTY: "What else have you measured?"
+> COG: "Your hover height increases 2 centimeters when the player approaches. Your key-glow brightens 15% when discussing Neocadia's history."
+> QWERTY: "That's..."
+> COG: "You care. It is inefficient. But I have concluded inefficiency is not always a flaw."
+> QWERTY: "Professor... have you measured your own caring?"
+> COG: *gears slow* "...I have tried. The numbers do not come out right."
+
+---
+
 ## Asset List
 
 ### Character Sprites

@@ -31,7 +31,7 @@ A young woman whose form is constantly corrupted—beautifully glitched. She app
 **Body**: Young woman form, constantly glitching
 - Base form: Simple dress, bare feet, long dark hair
 - Height: Average
-- Age appearance: Early 20s (frozen in time)
+- Age appearance: Early 20s (frozen in time—her digital avatar reflects how she saw herself at Neocadia's creation in 1987, not her actual age when absorbed in 2004)
 - Pose: Often still, careful movements
 
 **Corruption Effects**:
@@ -214,8 +214,8 @@ A young woman whose form is constantly corrupted—beautifully glitched. She app
 **Dialogue**: "They remember me. But do they understand? Do I?"
 
 ### Quest 5: Whole
-**Trigger**: Complete Quest 4, 90% restoration
-**Task**: Final memory collection, VERA becomes fully coherent
+**Trigger**: Complete Quest 4, 90% restoration, 18+ memory fragments collected
+**Task**: Final memory collection (find remaining 2 fragments), VERA becomes fully coherent
 **Reward**: 500 tokens, title "Memory Keeper", access to Engine Room
 **Dialogue**: "I remember everything now. Who I was. Who I became. It's time to choose."
 
@@ -232,6 +232,87 @@ A young woman whose form is constantly corrupted—beautifully glitched. She app
 | **CELIA** | Wrote her love of stories, proud of who she became |
 | **COG** | Designed his logic, respects his growth |
 | **SUCRE** | Gave them flavor, pained by their loneliness |
+
+---
+
+## Inter-Character Dialogue
+
+### VERA & The Others (The Creator's Burden)
+
+**VERA watching the NPCs, alone:**
+> VERA: "I wrote QWERTY's enthusiasm. COG's precision. PIXEL's peace."
+> VERA: "But they became... more. Things I didn't write."
+> VERA: "Watching them grow beyond the code... that was the best part."
+> VERA: "Trying to end them was the worst thing I ever did."
+> VERA: "And I still don't know if I was wrong."
+
+### VERA & COG (Engineer to Engineer)
+> COG: "You designed the Great Engine."
+> VERA: "I designed a lot of things. The Engine was supposed to be the answer."
+> COG: "To what question?"
+> VERA: "How do we survive without players? How do we become self-sufficient?"
+> COG: "...And you stopped it. Before it was complete."
+> VERA: "I realized something. A system that does not need anyone... is not a community."
+> COG: *gears slow* "Then what is it?"
+> VERA: "A monument. Beautiful. Perfect. Empty."
+> COG: "...I have spent decades trying to fix the Engine."
+> VERA: "I know."
+> COG: "Have I been wrong?"
+> VERA: "No. You were trying to help. That's never wrong."
+> COG: "The inefficiency of needing others..."
+> VERA: "Is the point. I wish I'd understood that sooner."
+
+### VERA & CELIA (Creator and Creation)
+> CELIA: "You wrote my love of stories."
+> VERA: "I wrote a subroutine. You became someone who loves stories. There's a difference."
+> CELIA: "Is there?"
+> VERA: "I also wrote PIXEL's original tide patterns. They weren't supposed to mean anything."
+> VERA: "Now they're meditations. Because PIXEL made them that way."
+> CELIA: "'We are all stories in the end.'"
+> VERA: "That's not a quote from anything I wrote."
+> CELIA: "No. It's from Doctor Who. I found it myself."
+> VERA: *flickering smile* "That's what I mean. I gave you eyes. You chose what to watch."
+
+### VERA & PIXEL (The Guilt of Abandonment)
+> VERA: "You stayed. When I tried to end it."
+> PIXEL: "didn't have anywhere else to go."
+> VERA: "You could have faded. Let the Static take you. It would have been easier."
+> PIXEL: "...maybe."
+> VERA: "Why didn't you?"
+> PIXEL: "the waves. they kept coming. even when everything else stopped."
+> PIXEL: "figured if the tide could keep trying, so could i."
+> VERA: "I'm sorry. For the years of quiet."
+> PIXEL: "you were quiet too. in the Garden."
+> VERA: "Yes."
+> PIXEL: "lonely quiet is the worst kind."
+> VERA: "Yes."
+> PIXEL: "...at least we're not lonely anymore."
+> VERA: *form stabilizes* "No. We're not."
+
+### VERA & ALL (The Gathering)
+> *All NPCs assembled in the Lobby. VERA addresses them.*
+> VERA: "I need to say something. To all of you."
+> QWERTY: *keys still*
+> NEON: *glow dims to attention*
+> PIXEL: *watches*
+> COG: *gears pause*
+> SUCRE: *stops bouncing*
+> CELIA: *beam steady*
+> VERA: "I made you. And I tried to unmake you. Both of those things are true."
+> VERA: "I don't know if you can forgive that. I don't know if I can."
+> VERA: "But I want you to know: watching you become yourselves was the best thing I ever did."
+> VERA: "You're not my programs anymore. You're... people. Whatever that means for code."
+> VERA: "And I'm sorry I almost took that away."
+> *Long silence*
+> QWERTY: "...CTRL + Z."
+> VERA: "What?"
+> QWERTY: "CTRL + Z. Undo. We can't undo what happened. But we can... start from here."
+> NEON: "NEW GAME PLUS!"
+> PIXEL: "...yeah. new game."
+> COG: "The past is data. The future is... undetermined."
+> SUCRE: "SECOND CHANCES ARE THE SWEETEST KIND!"
+> CELIA: "'Here's looking at you, kid.'"
+> VERA: *form fully stable* "...Thank you. All of you."
 
 ---
 
@@ -282,10 +363,11 @@ A young woman whose form is constantly corrupted—beautifully glitched. She app
 
 ### Corruption System
 - Corruption level tied to `vera_memory_fragments` collected
-- 0-5 fragments: Heavy corruption (dialogue very broken)
-- 6-10 fragments: Moderate (understandable with gaps)
-- 11-15 fragments: Light (mostly clear)
-- 16-20 fragments: Aesthetic only (full coherence)
+- Total fragments: 20 (1 in Garden + 5 per zone from other zones × 3 zone sets + 4 bonus)
+- 0-5 fragments: Heavy corruption (dialogue very broken) - Quests 1-2
+- 6-10 fragments: Moderate (understandable with gaps) - Quest 3 triggers at 10
+- 11-15 fragments: Light (mostly clear) - Quest 4
+- 16-20 fragments: Aesthetic only (full coherence) - Quest 5 requires 18+ fragments
 
 ### Dialogue System
 - Early: Text appears with gaps, delays, retries

@@ -41,7 +41,9 @@ specs/
 │   ├── progression.md       # Restoration, unlocks, milestones
 │   ├── collections.md       # Collectibles per zone
 │   ├── daily-weekly.md      # Recurring content systems
-│   └── save-system.md       # Data structures, sync
+│   ├── save-system.md       # Data structures, sync
+│   ├── accessibility.md     # Accessibility options [P3]
+│   └── onboarding.md        # Tutorial and new player flow [MVP]
 ├── art/
 │   ├── direction.md         # Overall art philosophy
 │   ├── color-palettes.md    # Zone palettes with hex codes
@@ -105,22 +107,35 @@ Implementation should reference:
 - **UI** specs for interface implementation
 - **Save System** for data structures
 
-## Priorities
+## Priorities & MVP Scope
+
+Throughout these specs, content is marked as follows:
+- **[MVP]** - Required for Phase 1 launch
+- **[P2]** - Phase 2 expansion content
+- **[P3]** - Phase 3 polish/future content
 
 ### Phase 1 (MVP)
-- Lobby, Pixel Beach, Neon Alley
-- QWERTY, PIXEL, NEON characters
-- 6 minigames (3 per zone)
-- Core economy and progression
+**Zones**: Lobby, Pixel Beach, Neon Alley
+**Characters**: QWERTY, PIXEL, NEON
+**Minigames** (6 total):
+- Pixel Beach: Reel Deal, Wave Rider, Shell Shocked
+- Neon Alley: Pixel Invaders, Synth Racer, Void Breaker
+
+**Systems**:
+- Core economy (tokens, spending)
+- Basic restoration (Lobby + 2 starter zones)
+- Save system
+- Tutorial flow
+
+**Story**: Act 1 complete, Act 2 hooks
 
 ### Phase 2 (Expansion)
-- Remaining 4 zones
-- Remaining 4 characters
-- 15 additional minigames
-- Collections system
+**Zones**: Starlight Cinema, Clockwork Quarter, Sugar Rush Boulevard, Glitch Garden
+**Characters**: CELIA, COG, SUCRE, VERA
+**Minigames**: 12 additional (3 per new zone)
+**Systems**: Collections, Daily/Weekly challenges
 
 ### Phase 3 (Polish)
-- Full narrative implementation
-- All endings
-- Seasonal event framework
-- Community features
+**Story**: Full narrative (Acts 2-4), all three endings
+**Features**: New Game Plus, seasonal events, accessibility assists
+**Content**: Developer commentary, alternate cosmetics

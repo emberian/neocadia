@@ -22,7 +22,7 @@ Main Menu
             ├─→ Hall of Champions
             ├─→ Lost & Found
             ├─→ Player Cabinet
-            ├─→ Zone Doors (7)
+            ├─→ Zone Doors (6 visible, 1 hidden)
             │       ├─→ Neon Alley
             │       │       ├─→ Stage (NEON)
             │       │       ├─→ Tournament Board
@@ -34,10 +34,26 @@ Main Menu
             │       │       ├─→ Surfboard → Surfing
             │       │       ├─→ Shell Shore → Memory
             │       │       └─→ Sandcastle
-            │       ├─→ Glitch Garden
             │       ├─→ Starlight Cinema
+            │       │       ├─→ Projection Room (CELIA)
+            │       │       ├─→ Main Screen → Scene Stealer
+            │       │       ├─→ Quiz Booth → Reel Trivia
+            │       │       └─→ Editing Suite → Director's Cut
             │       ├─→ Clockwork Quarter
-            │       └─→ Sugar Rush Boulevard
+            │       │       ├─→ Workshop (PROFESSOR COG)
+            │       │       ├─→ Gear Table → Gear Garden
+            │       │       ├─→ Defense Post → Tick Defense
+            │       │       └─→ Launch Bay → Spring Loaded
+            │       ├─→ Sugar Rush Boulevard
+            │       │       ├─→ Candy Stand (SUCRE)
+            │       │       ├─→ Match Machine → Candy Cascade
+            │       │       ├─→ Kitchen → Sugar Rush Kitchen
+            │       │       └─→ Breaker Booth → Jawbreaker
+            │       └─→ Glitch Garden (hidden until 60% restoration)
+            │               ├─→ Central Clearing (VERA)
+            │               ├─→ Debug Station → Debug
+            │               ├─→ Loop Path → Loop Garden
+            │               └─→ Error Field → Error Garden
             └─→ Exit (Leave Neocadia)
 ```
 

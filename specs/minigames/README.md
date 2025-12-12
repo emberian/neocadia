@@ -157,14 +157,72 @@ Each game spec includes:
 Each game spec follows this structure:
 1. Overview (Telos + Ludos)
 2. Core Loop
-3. Controls
+3. Controls (Mouse primary, Keyboard alternative)
 4. Mechanics (with numbers)
 5. Progression/Difficulty
 6. Scoring
-7. Visual Style
-8. Audio
+7. Visual Style (including feedback table)
+8. Audio (music + sound effects table)
 9. Asset List
 10. Implementation Notes
+
+---
+
+## Pre-Game Screen Standard
+
+Every minigame MUST display a pre-game screen before play begins:
+
+```
+┌─────────────────────────────────────────────┐
+│              [GAME TITLE]                    │
+│         "[One-line description]"            │
+│                                              │
+│  HOW TO PLAY:                               │
+│  [Control icon] [Action description]        │
+│  [Control icon] [Action description]        │
+│  [Control icon] [Action description]        │
+│                                              │
+│  HIGH SCORE: [Player's best]                │
+│                                              │
+│  [Skip Tutorial]         [Start Game]       │
+└─────────────────────────────────────────────┘
+```
+
+### Requirements
+- **Title**: Game name in zone-themed style
+- **Tagline**: 3-5 word description of the experience
+- **Controls**: Max 3 essential controls shown with icons
+- **High Score**: Player's personal best (or "--" if none)
+- **Skip Tutorial**: Only shown for first-time plays (leads to brief in-game tutorial)
+- **Start Game**: Always available, skips tutorial if previously completed
+
+### Control Icons
+| Input | Icon |
+|-------|------|
+| Mouse move | 🖱️↔️ |
+| Left click | 🖱️ |
+| Right click | 🖱️R |
+| Click & hold | 🖱️⏱️ |
+| Keyboard arrows | ⌨️←→ |
+| Spacebar | ⌨️SPACE |
+| Number keys | ⌨️1-4 |
+
+### Example: Reel Deal
+```
+┌─────────────────────────────────────────────┐
+│              REEL DEAL                       │
+│           "Cast, wait, catch."              │
+│                                              │
+│  HOW TO PLAY:                               │
+│  🖱️⏱️  Hold & release to cast               │
+│  🖱️    Click when bobber dips               │
+│  🖱️    Click rhythm to reel in              │
+│                                              │
+│  HIGH SCORE: 12 fish (Legendary: 1)         │
+│                                              │
+│  [Skip Tutorial]         [Let's Fish!]      │
+└─────────────────────────────────────────────┘
+```
 
 ---
 

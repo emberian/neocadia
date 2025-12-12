@@ -82,7 +82,7 @@ Brick breaker with candy theming. Break candy structures with bouncing gumballs,
 ```
 tokens = 15 + floor(score / 100)
 ```
-Cap: 75 tokens per session
+Cap: 50 tokens per session (matches Sugar Rush Boulevard zone cap for Casual games)
 
 ---
 

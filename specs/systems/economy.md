@@ -31,6 +31,20 @@ Every minigame awards tokens based on a formula:
 tokens = base_award + (score_bonus × performance_multiplier)
 ```
 
+**Performance Multiplier Formula**:
+- Score 0-50% of par: 0.5× (floor)
+- Score 50-100% of par: 0.5× + ((score% - 50)/50 × 0.5) → scales from 0.5× at 50% to 1.0× at 100%
+- Score 100-150% of par: 1.0× + ((score% - 100)/50 × 0.5) → scales from 1.0× at 100% to 1.5× at 150%
+- Score 150%+ of par: 1.5× (cap)
+
+**Score Bonus Range by Zone** (varies by minigame, see individual specs):
+- Action games: 10-85 tokens (high variance, skill-based)
+- Relaxed games: 5-55 tokens (low variance, time-based)
+- Puzzle games: 15-50 tokens (solution-based)
+- Narrative games: 10-30 tokens (engagement-based)
+- Logic games: 10-80 tokens (complexity-based)
+- Casual games: 5-35 tokens (accessibility-focused)
+
 #### Base Awards by Zone
 | Zone | Base | Rationale |
 |------|------|-----------|
@@ -99,12 +113,26 @@ To prevent burnout and maintain balance:
 ### Zone Unlocks
 | Zone | Cost | Prerequisite |
 |------|------|--------------|
-| Pixel Beach | Free | None (starter) |
+| Pixel Beach | Free | None (starter zone) |
 | Neon Alley | 500 | Complete tutorial |
-| Sugar Rush Boulevard | 750 | 25% restoration |
-| Clockwork Quarter | 1000 | 35% restoration |
-| Starlight Cinema | 1500 | 45% restoration |
-| Glitch Garden | 2000 | 60% restoration |
+| Sugar Rush Boulevard | 750 | 25% overall restoration |
+| Clockwork Quarter | 1000 | 35% overall restoration |
+| Starlight Cinema | 1500 | 45% overall restoration |
+| Glitch Garden | 2000 | 60% overall restoration |
+
+**How Zone Prerequisites Work**:
+- Overall restoration is a weighted average (see Progression spec)
+- Players can reach 25% overall by restoring Lobby (1.5× weight) + starter zones
+- Token cost AND restoration prerequisite must both be met
+- Players cannot "skip" by just having tokens—engagement with restoration is required
+- Example path to Glitch Garden unlock:
+  - Lobby at 50% (contributes ~11% weighted)
+  - Pixel Beach at 100% (contributes ~14%)
+  - Neon Alley at 75% (contributes ~11%)
+  - Sugar Rush at 50% (contributes ~7%)
+  - Clockwork Quarter at 50% (contributes ~7%)
+  - Starlight Cinema at 75% (contributes ~11%)
+  - **Total: ~61% overall** → Glitch Garden unlockable
 
 ### Restoration Spending
 Each zone has restoration tiers requiring cumulative tokens:
@@ -121,7 +149,13 @@ Each zone has restoration tiers requiring cumulative tokens:
 - 6 Other Zones: 6 × 2,600 = 15,600 tokens
 - **Total to 100% Restoration**: 20,600 tokens
 
-**Note**: Tokens spent on restoration are *invested*, not lost. They become part of the world. Restoration also gains passively: every token earned adds 0.01% to the zone played in, and every token spent adds 0.005% to the target zone.
+**Note**: Tokens spent on restoration are *invested*, not lost. They become part of the world. Restoration also gains passively: every token earned adds 0.05% to the zone played in, and every token spent adds 0.025% to the target zone.
+
+**Passive Restoration Math**:
+- Casual player (175 tokens/day) → 8.75% zone restoration/day from passive alone
+- This means passive restoration is a nice bonus (~10-15% of total progress) rather than the primary driver
+- Investing tokens directly in restoration remains the main progression method
+- Example: A player earning 1,000 tokens in Neon Alley gains +50% passive restoration there, but needs 2,600 tokens invested to fully restore the zone
 
 ### Cosmetics
 | Category | Range | Examples |
@@ -133,12 +167,19 @@ Each zone has restoration tiers requiring cumulative tokens:
 | Titles | 150-500 | Display names |
 
 ### Consumables (Optional Helps)
-| Item | Cost | Effect |
-|------|------|--------|
-| Hint Token | 25 | One hint in puzzle games |
-| Extra Life | 50 | +1 life in applicable games |
-| Score Boost | 100 | 1.5× next game score |
-| Bait (fishing) | 10-50 | Better fish chances |
+| Item | Cost | Effect | Max Held | Daily Purchase Limit |
+|------|------|--------|----------|---------------------|
+| Hint Token | 25 | One hint in puzzle games | 5 | 3 |
+| Extra Life | 50 | +1 life in applicable games | 3 | 2 |
+| Score Boost | 100 | 1.5× next game score | 2 | 1 |
+| Bait (fishing) | 10-50 | Better fish chances | 10 per type | 5 per type |
+
+**Consumable Philosophy**:
+- Consumables help struggling players, not optimize grinding
+- Can't stockpile forever (inventory limits)
+- Can't buy unlimited per day (purchase limits)
+- Never required for progression (purely optional assists)
+- Reset: Inventory persists, purchase limits reset daily at midnight UTC
 
 ---
 
@@ -177,6 +218,17 @@ Each zone has restoration tiers requiring cumulative tokens:
 - At 175 tokens/day casual: 168 days (~5.5 months)
 - At 350 tokens/day regular: 84 days (~3 months)
 - At 600 tokens/day dedicated: 49 days (~7 weeks)
+
+**Collection Reward Offset** (tokens earned back during play):
+- Fish Collection (Pixel Beach): 750 tokens (25%: 100, 50%: 150, 75%: 200, 100%: 300)
+- Arcade Legends (Neon Alley): 750 tokens
+- Film Reels (Starlight Cinema): 750 tokens
+- Glitch Samples (Glitch Garden): 750 tokens
+- Blueprints (Clockwork Quarter): 750 tokens
+- Recipes (Sugar Rush): 750 tokens
+- Achievements: ~1,000 tokens (meta-collection, larger scope)
+- **Total Collection Rewards**: 5,500 tokens
+- **Net Cost after Collections**: ~23,850 tokens (reduces timeline by ~18%)
 
 This pacing ensures casual players can see credits in 3-4 months while dedicated players reach endgame in under 2 months.
 
@@ -294,7 +346,7 @@ interface EconomyState {
 **Solution**: Zone unlocks and restoration are separate "investment" transactions that feel different from "spending" on cosmetics. UI distinction: "Invest" vs "Purchase".
 
 **Identified Risk**: Player focuses only on one zone, doesn't see restoration progress elsewhere.
-**Solution**: Passive restoration (0.01% per token earned anywhere) and first-play-of-day bonuses encourage variety.
+**Solution**: Passive restoration (0.05% per token earned in zone played) and first-play-of-day bonuses encourage variety.
 
 **Identified Risk**: New player overwhelmed by token sinks, doesn't know what to prioritize.
 **Solution**: QWERTY provides gentle guidance: "The Lobby fountain could use some attention..." / "Neon Alley is calling to you!"
@@ -303,22 +355,29 @@ interface EconomyState {
 
 | Trigger | System A | System B | Effect |
 |---------|----------|----------|--------|
-| Token earned | Economy | Restoration | +0.01% to zone played |
-| Token spent | Economy | Restoration | +0.005% to target zone |
+| Token earned | Economy | Restoration | +0.05% to zone played |
+| Token spent | Economy | Restoration | +0.025% to target zone |
 | Zone unlock | Economy | Progression | New quests available |
 | Restoration 25% | Restoration | Story | NPC awakens |
 | Restoration 50% | Restoration | Story | Deep quests unlock |
-| Collection complete | Collections | Economy | 750 token reward |
+| Collection complete | Collections | Economy | 750 token reward (300 final + 450 milestones) |
 | Character quest done | Story | Economy | 100-500 token reward |
 | Daily challenge done | Daily | Economy | 100 tokens |
 | Tournament entry | Weekly | Economy | 50+ tokens |
+| First-play bonus | Daily | Economy | 1.5× multiplier per zone |
+| 7-day streak | Weekly | Economy | 200 tokens + streak multiplier |
 
 ### Exploit Watchlist
 
-| Potential Exploit | Mitigation |
-|-------------------|------------|
-| Fishing infinite farm | Session cap of 75 tokens |
-| Idle game AFK farm | 8-hour offline cap, 100 daily cap |
-| Multi-account tournaments | Account age requirements for ranked rewards |
-| Consumable stockpiling | Consumables are session-use only, don't stack excessively |
-| Token sinks exhausted late-game | New Game Plus resets restoration, cosmetics expand with updates |
+| Potential Exploit | Mitigation | Status |
+|-------------------|------------|--------|
+| Fishing infinite farm | Session cap of 75 tokens, first-catch bypass limited to 3/session | Mitigated |
+| Idle game AFK farm | 8-hour offline cap, 100 daily cap, resources uncapped but tokens capped | Mitigated |
+| Multi-account tournaments | Account age requirements (7 days) for ranked rewards | Mitigated |
+| Consumable stockpiling | Max held limits (2-10), daily purchase limits (1-5) | Mitigated |
+| Token sinks exhausted late-game | New Game Plus resets restoration, cosmetics expand with updates | Designed |
+| Tower defense endless grinding | Diminishing returns after wave 10, perfect wave bonus rewards skill | Mitigated |
+| First-play bonus farming | First-play 1.5× limited to once per zone per day | Designed |
+| Score Boost stacking | Max 2 held, 1/day purchase, doesn't stack with other multipliers | Mitigated |
+| Zone restoration via passive only | Passive rate (0.05%) is supplementary; direct investment still primary method | Designed |
+| Daily soft cap evasion | 500 token daily soft cap affects all gameplay, bonuses exempt but limited | Designed |

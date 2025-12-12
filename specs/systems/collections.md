@@ -174,7 +174,43 @@ interface Recipe {
 
 ---
 
-### 6. Achievements
+### 6. Arcade Legends (Neon Alley)
+**Total**: 20 legendary tokens
+**Source**: Hidden in Neon Alley, achievement-based, special plays
+
+**Categories**:
+| Category | Count | How to Obtain |
+|----------|-------|---------------|
+| Cabinet Secrets | 8 | Hidden in game cabinets |
+| High Score Milestones | 6 | Reach score thresholds |
+| Legacy Tokens | 6 | Complete NEON's quest + special achievements |
+
+**Legend Data**:
+```typescript
+interface ArcadeLegend {
+  legend_id: LegendId;
+  name: string;
+  description: string;
+  category: 'cabinet_secret' | 'high_score' | 'legacy';
+  collected: boolean;
+  associated_game: GameId | null;
+  lore_text: string;  // Stories of legendary players
+}
+```
+
+**Display**: Wall of Legends in Neon Alley (illuminated display cases)
+
+**Special**: Each token tells the story of a legendary player from Neocadia's past, connecting to the "AAA" mystery in NEON's quest line.
+
+**Completion Reward**:
+- Title: "Arcade Legend"
+- Cabinet Trophy: Golden Joystick
+- 750 tokens
+- Unlock: Enter name in permanent Hall of Champions
+
+---
+
+### 7. Achievements
 **Total**: 100+ achievements
 **Source**: Everything
 
@@ -268,14 +304,15 @@ interface CollectionProgress {
 
 **Total per completed collection**: 750 tokens + cosmetic + title + trophy
 
-**All Collections Summary** (6 collections):
+**All Collections Summary** (7 collections):
 - Fish (Pixel Beach): 750 tokens
+- Arcade Legends (Neon Alley): 750 tokens
 - Film Reels (Starlight Cinema): 750 tokens
 - Glitch Samples (Glitch Garden): 750 tokens
 - Blueprints (Clockwork Quarter): 750 tokens
 - Recipes (Sugar Rush): 750 tokens
 - Achievements (meta-collection): 1000 tokens (larger scope)
-- **Grand Total**: 4,750 tokens from all collections
+- **Grand Total**: 5,500 tokens from all collections
 
 ---
 

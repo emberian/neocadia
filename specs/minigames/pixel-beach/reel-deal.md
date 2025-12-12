@@ -138,7 +138,13 @@ tokens = sum(fish_values) + bonuses
 ```
 **Session Cap**: 75 tokens per session (aligned with Pixel Beach zone cap)
 
-**Design Note**: While fishing's relaxed nature encourages long sessions, uncapped rewards would create an exploit. The cap is soft—players can keep fishing for collection progress and the joy of it, but token rewards plateau. New species catches bypass the cap (rewarding exploration over grinding).
+**First-Catch Bypass**:
+- New species (first time ever caught): Full token value even if over session cap
+- Maximum bypass per session: 3 new species (prevents "save all discoveries for one mega-session")
+- Bypass tokens awarded immediately, clearly labeled as "Discovery Bonus"
+- After 3 new species in one session, additional new catches still unlock collection but give 0 extra tokens
+
+**Design Note**: While fishing's relaxed nature encourages long sessions, uncapped rewards would create an exploit. The cap is soft—players can keep fishing for collection progress and the joy of it, but token rewards plateau. The first-catch bypass rewards exploration over grinding while preventing exploitation.
 
 ---
 

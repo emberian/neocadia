@@ -25,11 +25,19 @@ Connection puzzle: place gears to transfer rotation from source to target. Physi
 
 ## Controls
 
-### Mouse
+### Mouse (Primary)
 - Click gear in inventory → Select
 - Click on board → Place gear
-- Right-click/drag → Rotate gear
+- Right-click or drag → Rotate gear
 - Double-click placed gear → Remove
+
+### Keyboard (Alternative)
+- 1-6 → Select gear from inventory
+- Arrow keys → Move cursor on board
+- Enter/Space → Place selected gear
+- R → Rotate gear
+- Backspace/Delete → Remove gear at cursor
+- Tab → Cycle through placed gears
 
 ---
 
@@ -79,7 +87,7 @@ Connection puzzle: place gears to transfer rotation from source to target. Physi
 ```
 tokens = 20 + floor(level × 3) + floor(bonus / 100)
 ```
-Cap: 80 tokens per session
+Cap: 100 tokens per session (matches Clockwork Quarter zone cap for Logic games)
 
 ---
 
@@ -89,6 +97,41 @@ Cap: 80 tokens per session
 - Satisfying rotation animation
 - Meshing gears click together
 - Power visualization (glow transfer)
+
+### Visual Feedback
+| Action | Feedback |
+|--------|----------|
+| Gear selected | Inventory slot highlights, cursor shows gear |
+| Valid placement | Green ghost preview |
+| Invalid placement | Red ghost preview, subtle shake |
+| Gear placed | Click animation, gear settles into position |
+| Gears mesh | Connection sparks, both gears glow |
+| Power flows | Golden glow travels along chain |
+| Target activated | Target pulses, victory indicator |
+| Puzzle solved | All gears flash gold, celebration particles |
+
+---
+
+## Audio
+
+### Music
+- Clockwork Quarter ambient (mechanical, methodical)
+- Tempo increases slightly as more gears are placed
+- Victory fanfare on puzzle completion
+
+### Sound Effects
+| Event | Sound |
+|-------|-------|
+| Gear select | Metallic click |
+| Gear place | Satisfying clunk |
+| Gear mesh | Mechanical engagement click |
+| Gear rotate | Ratchet sound |
+| Gear remove | Reverse clunk |
+| Invalid placement | Dull thud + buzz |
+| Power flow | Whirring hum |
+| Target activate | Rising chime |
+| Puzzle complete | Orchestral flourish + gear symphony |
+| Level start | Clock chime |
 
 ---
 

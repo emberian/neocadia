@@ -112,12 +112,23 @@ Menus in Neocadia should feel like part of the arcade—not jarring system inter
 | Skip Animations | Toggle | Off |
 
 ### Accessibility Settings
+
+*See [Accessibility System](/specs/systems/accessibility.md) for complete details.*
+
+**Quick Access** (most common):
 | Setting | Type | Options |
 |---------|------|---------|
+| Text Size | Dropdown | Normal, Large, Extra Large |
+| High Contrast | Toggle | Off |
 | Colorblind Mode | Dropdown | None, Deuteranopia, Protanopia, Tritanopia |
 | Reduce Motion | Toggle | Off |
-| High Contrast | Toggle | Off |
-| Text Size | Dropdown | Normal, Large, Extra Large |
+
+**[More Accessibility Options...]** → Opens full accessibility panel:
+- Extended timers
+- Simplified controls
+- Audio cues
+- Click assistance
+- Input settings
 
 ---
 

@@ -167,7 +167,27 @@ Moving between zones shouldn't feel like level selection—it should feel like c
 
 **Clockwork Quarter → Sugar Rush**: Logic to feeling. The player moves from the satisfying click of gears to the overwhelming sweetness of celebration. This should feel like finishing a puzzle and realizing you've been so focused you forgot to enjoy yourself. Sugar Rush is permission to stop thinking.
 
+**Starlight Cinema → Clockwork Quarter**: Narrative to mechanics. From stories told to problems solved. The transition should feel like closing a book and opening a toolbox—both are satisfying, but in different ways. The projector's warm beam gives way to brass precision.
+
+**Sugar Rush → Pixel Beach**: Overstimulation to exhale. After the intense sweetness, the Beach's gentle tide is a palate cleanser. This should feel like leaving a party that was almost too much and finding a quiet porch. The waves don't demand anything from you.
+
+**Pixel Beach → Starlight Cinema**: Solitude to shared experience. From watching waves alone to watching stories with an audience (even an imagined one). The transition should feel like inviting someone into your peace—choosing to share silence with a friend.
+
 **Any Zone → Glitch Garden**: Always significant. The Garden is the emotional heart—visiting it should never feel casual. Even at high restoration, entering should feel like deciding to have a real conversation.
+
+**Glitch Garden → Any Zone**: The return should feel like surfacing. Whatever truth the player encountered in the Garden, they carry it back with them. The other zones feel slightly different after—not changed, but *seen* differently. Pixel Beach is more tender. Neon Alley more defiant. Sugar Rush more vulnerable.
+
+### The Full Emotional Circuit
+
+Players who visit all zones in a session are taking an emotional journey. The ideal circuit creates a complete experience:
+
+**The Contemplative Path**: Lobby → Pixel Beach → Glitch Garden → Starlight Cinema → Lobby. *Calm → wonder → truth → meaning → home*. For players who want to feel something.
+
+**The Energetic Path**: Lobby → Neon Alley → Clockwork Quarter → Sugar Rush → Lobby. *Ready → challenged → satisfied → rewarded → home*. For players who want to accomplish something.
+
+**The Complete Journey**: Lobby → Pixel Beach → Neon Alley → Clockwork Quarter → Sugar Rush → Starlight Cinema → Glitch Garden → Lobby. *Peace → intensity → precision → celebration → reflection → revelation → home*. For players who want to experience everything.
+
+Each path should feel intentional, not random. The zone doors in the Lobby should subtly suggest journeys—their arrangement matters.
 
 ### The Lobby as Breath
 

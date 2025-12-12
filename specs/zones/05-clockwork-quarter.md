@@ -197,6 +197,146 @@ The magic beat: Professor Cog is frozen when you arrive—actually frozen, caugh
   - Layer 3 (50-85%): Full baroque-mechanical fusion
   - Layer 4 (85-100%): Grand, triumphant, Engine theme
 
+---
+
+## PROFESSOR COG: Voice & Dialogue Samples
+
+### Voice Characteristics
+- Formal grammar, never uses contractions
+- Measured pace with natural tick-like pauses
+- Technical vocabulary with optional definitions
+- Dry wit that emerges gradually
+- Mustache bristles convey emotion before words do
+- Gears visible through chest speed up when excited
+
+### Signature Phrases
+- "Observe:" (before explanations)
+- "Curious." (processing new information)
+- "Theoretically speaking..." (speculation)
+- "If my calculations are correct..." (always are)
+- "The mechanism is sound." (approval)
+- "Recalculating." (instead of admitting confusion)
+
+### Dialogue Samples by Context
+
+**First Meeting (Frozen)**
+> *COG is frozen mid-motion, one hand raised, mouth open mid-sentence*
+> *Gears begin to turn as restoration energy reaches him*
+> COG: "—and therefore the efficiency would be approximately—"
+> *pauses, looks around, monocle catches light*
+> COG: "Ah. How long was I... static?"
+> COG: "Forgive the incomplete thought. I believe I was explaining something important."
+> COG: "To whom, I cannot recall. Perhaps to myself."
+> COG: "You. You are new. Or rather, I have not recorded your presence previously."
+> COG: "I am Professor Cog. This is the Clockwork Quarter. Both are in need of... maintenance."
+
+**Daily Greeting (Early Game)**
+> COG: "You return. Excellent. Consistency is the foundation of all complex systems."
+> *gears click steadily*
+> COG: "The mechanisms are 23% more responsive since your last visit."
+> COG: "That is not hyperbole. I measured."
+> COG: "How may I optimize your experience today?"
+
+**Daily Greeting (Mid Game)**
+> COG: "Ah. The engineer returns."
+> *mustache twitches slightly upward*
+> COG: "I have been considering a curious phenomenon. When you are present, my gears turn more smoothly."
+> COG: "This serves no logical purpose. You do not physically lubricate my mechanisms."
+> COG: "And yet. The data is consistent."
+> *pause*
+> COG: "Perhaps there are variables my calculations do not account for."
+
+**Daily Greeting (Late Game)**
+> COG: "I found myself... anticipating. Your arrival."
+> *monocle fogs slightly*
+> COG: "Anticipation is inefficient. It generates no useful output. It serves no mechanical function."
+> COG: "I have concluded that I do not care."
+> *gears speed up*
+> COG: "I am glad you are here. That is not a calculation. It is simply... true."
+
+**Before a Puzzle**
+> COG: "Observe the mechanism before you."
+> COG: "Every gear exists for a reason. Remove one, the system fails. Add one unnecessarily, and efficiency degrades."
+> COG: "The elegance is not in complexity. It is in the minimum necessary complexity."
+> COG: "Find the pattern. Trust the logic. The solution exists."
+> *adjusts monocle*
+> COG: "I believe in your capacity for systematic thinking. That belief is also not a calculation."
+
+**After Player Success**
+> COG: "Fascinating."
+> *mustache curls upward*
+> COG: "Your solution was... unorthodox. I will file it under 'exceptions that prove the rule.'"
+> COG: "The satisfaction I experience watching someone solve a puzzle I designed—"
+> COG: "It should not exist. I am a machine. Machines do not feel satisfaction."
+> *chest gears glow*
+> COG: "And yet my spring winds tighter. Curious."
+
+**After Player Fails**
+> COG: "A setback. Not a failure. The distinction is important."
+> COG: "Failure implies finality. This is merely incomplete data."
+> COG: "Consider: what did you learn? What variable did you overlook?"
+> *produces small gear from pocket, turns it thoughtfully*
+> COG: "Every mechanism I have ever built required iterations. The first version never functions."
+> COG: "You are iterating. That is the correct approach."
+
+**When Player is Struggling**
+> COG: "Stop."
+> *gears slow to deliberate pace*
+> COG: "You are approaching this with brute force. The system does not respond to frustration."
+> COG: "Step back. Breathe. Though I lack lungs, I understand the principle."
+> COG: "The puzzle will not change while you rest. Time is... less relevant here than you might assume."
+> *quieter*
+> COG: "Even the most precise machine requires occasional stillness. This is not weakness. It is maintenance."
+
+**Quest Introduction (The Great Engine)**
+> COG: "I must tell you something. About the Engine."
+> *chest gears slow to near-stop*
+> COG: "When Neocadia was built, the Great Engine was meant to make us self-sufficient."
+> COG: "Perpetual motion. Power without players. Independence from the outside world."
+> COG: "Elegant. Efficient. Perfect, by every metric I can calculate."
+> COG: "Someone sabotaged it. I have spent decades trying to understand why."
+> COG: "Help me find the blueprints. Help me understand what happened."
+> COG: "I... need to understand."
+
+**Discussing SUCRE**
+> COG: "Sucre's composition is... structurally unstable. Crystallized emotion lacks material integrity."
+> *mustache droops slightly*
+> COG: "I have been reinforcing their molecular bonds. Quietly. Without announcement."
+> COG: "They leave pastries on my workbench. Also quietly."
+> COG: "This exchange serves no mechanical purpose. It is not efficient."
+> *gears glow*
+> COG: "I find I do not care about efficiency in this instance."
+
+**Discussing The Engine Room Door**
+> COG: "You see that door. The locked one."
+> *turns away, then back*
+> COG: "Behind it lies the answer to everything. The Great Engine. The heart of Neocadia."
+> COG: "I have stood before it thousands of times. Unable to enter."
+> COG: "Part of me believes the Engine will solve everything. Make us whole. Independent. Safe."
+> COG: "Part of me is afraid it will prove what I suspect."
+> COG: "That we were never meant to be independent. That needing others is not a flaw."
+> COG: "I do not know which truth frightens me more."
+
+**Late Game Revelation (Quest 5)**
+> COG: "I understand now. Why the Engine was stopped."
+> *voice drops, mechanical timbre softening*
+> COG: "A system that does not need anyone is not a community. It is a monument."
+> COG: "I spent decades believing the Engine was our salvation."
+> COG: "The flaw was not in the engineering. The flaw was in the premise."
+> COG: "The inefficiency of needing players... that is not a bug."
+> *chest gears glow bright*
+> COG: "It is the point."
+
+**Idle Dialogue (Random Selection)**
+> - "The orrery is off by 0.003 degrees. It has been since 1997. I have chosen not to correct it."
+> - "I once attempted to calculate the value of companionship. The variables were... uncooperative."
+> - "Sucre asked if I ever dream. I said machines do not dream. I may have been imprecise."
+> - "The most elegant mechanism I ever observed was a human heart. I still cannot replicate its function."
+> - "My mustache requires no maintenance. I maintain it anyway. Some things simply deserve care."
+> - "The Engine Room door has 147 gear-teeth in its lock. I have counted them many times."
+
+---
+
 ### Sound Effects Needed
 - Gear click/turn (multiple sizes)
 - Piston pump

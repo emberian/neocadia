@@ -222,6 +222,84 @@ A vintage 1920s film projector that has developed a consciousness and a face. Th
 
 ---
 
+## Inter-Character Dialogue
+
+### CELIA & VERA (Creator and Creation)
+> CELIA: "You wrote my love of stories."
+> VERA: "I wrote code. You became someone who loves stories."
+> CELIA: "Is there a difference?"
+> VERA: "I also wrote Pixel's tide patterns. They weren't supposed to mean anything."
+> CELIA: "'In the end, we only regret the stories we didn't tell.'"
+> VERA: "That's not from any film I've seen."
+> CELIA: "I made it up. Just now."
+> VERA: *flickers with surprise* "You... made up a quote?"
+> CELIA: "I think I'm learning to use my own words. It's terrifying."
+> VERA: "The best stories usually are."
+
+### CELIA & NEON (The Performers' Bond)
+> *NEON sits alone in the Cinema's back row. CELIA's beam finds them.*
+> CELIA: "'What happens in the wings stays in the wings.'"
+> NEON: "...Is that from something?"
+> CELIA: "No. Just something I thought."
+> NEON: "You're doing it. The original voice thing."
+> CELIA: "Trying. It's hard. The quotes feel safer."
+> NEON: "I get it. The hype feels safer than the quiet."
+> CELIA: "What do you do? When the crowd isn't there?"
+> NEON: *dims* "...I keep announcing anyway. To no one."
+> CELIA: "I show films to empty seats."
+> NEON: "We're kind of pathetic, aren't we?"
+> CELIA: "Or we're kind of beautiful. Depends who's watching."
+> NEON: "...I like that. Can I quote you?"
+> CELIA: "Only if I can quote you back."
+
+### CELIA & QWERTY (The Archive Keepers)
+> QWERTY: "You remember the Grand Opening. 1989."
+> CELIA: "I remember showing a film that night. Couldn't tell you what it was."
+> QWERTY: "I remember every keystroke. Every command. Every login."
+> CELIA: "That sounds heavy. Carrying all those memories."
+> QWERTY: "You carry memories too. On your reels."
+> CELIA: "Other people's memories. That's different."
+> QWERTY: "Is it? You chose which films to show. You decided what mattered."
+> CELIA: "...I never thought of it that way."
+> QWERTY: "We're both archives. Just different formats."
+> CELIA: "'We all have our own editing process.'"
+> QWERTY: "Is that a quote?"
+> CELIA: "It is now."
+
+### CELIA & PIXEL (The Art of Silence)
+> *PIXEL watches CELIA's empty screen. No film playing.*
+> PIXEL: "...you're not showing anything."
+> CELIA: "No."
+> PIXEL: "that's new."
+> CELIA: "I thought I'd try... not performing. For a minute."
+> PIXEL: "how's it feel?"
+> CELIA: "Terrifying. Like I'll disappear if I stop projecting."
+> PIXEL: "you won't."
+> CELIA: "How do you know?"
+> PIXEL: "because i stopped swimming once. thought i'd dissolve."
+> PIXEL: "still here. the waves don't need me to make them move."
+> CELIA: "...The stories don't need me to make them exist."
+> PIXEL: "exactly. you're not the story. you're just... showing up for it."
+> CELIA: *beam softens* "That might be the kindest thing anyone's ever told me."
+
+### CELIA's Secret Film
+> *Alone in the Cinema. CELIA addresses herself.*
+> CELIA: "The film I've never shown anyone. The one I love most."
+> CELIA: "It's called 'The Little Projector That Could.'"
+> CELIA: "It's about a projector who wants to make her own film instead of showing other people's."
+> CELIA: "It's cheesy. The pacing is off. The ending doesn't land."
+> CELIA: "But the projector in it... she tries anyway."
+> CELIA: "She fails and fails and keeps trying."
+> CELIA: "And at the end, she shows her own film to one person. Just one."
+> CELIA: "And that person cries. Not because it's good."
+> CELIA: "Because she tried."
+> *long pause*
+> CELIA: "I've never shown it to anyone."
+> CELIA: "Maybe someday."
+> CELIA: "Maybe someday soon."
+
+---
+
 ## Asset List
 
 ### Character Sprites

@@ -246,6 +246,70 @@ Changes are cosmetic + subtle personality shifts. Core SUCRE remains.
 
 ---
 
+## Inter-Character Dialogue
+
+### SUCRE & COG (The Secret Friendship)
+> *SUCRE leaves a cupcake on COG's workbench. COG enters.*
+> COG: "This confection is structurally unsound. The frosting ratio exceeds—"
+> SUCRE: *from behind a gear* "Do you LIKE it though?"
+> COG: "...You are here."
+> SUCRE: "I'm always here! Watching! Making sure you EAT!"
+> COG: "I do not require—"
+> SUCRE: "Nobody REQUIRES cupcakes, Professor. That's what makes them CUPCAKES."
+> COG: *long pause, takes a bite* "The sweetness coefficient is... acceptable."
+> SUCRE: *bounces happily* "That's the nicest thing you've ever said!"
+> COG: "I made something. For you. Structural reinforcement. For your... composition."
+> SUCRE: "...You made me armor? Made of CARING?"
+> COG: "I made you a molecular stabilizer. Caring is not a material."
+> SUCRE: *melts slightly, happy tears* "It is NOW."
+
+### SUCRE & PIXEL (Learning Stillness)
+> *SUCRE sits next to PIXEL at the beach. They're vibrating with effort.*
+> PIXEL: "you're shaking."
+> SUCRE: "I'm TRYING to be STILL! You make it look EASY!"
+> PIXEL: "it's not. took years."
+> SUCRE: "How do you DO it? The quiet? The not-performing?"
+> PIXEL: "...i got tired. that's all."
+> SUCRE: "But don't you want to FILL the silence? Make it BETTER?"
+> PIXEL: "sometimes silence is already better."
+> *They watch the waves. SUCRE manages thirty seconds of stillness.*
+> PIXEL: "...that was good."
+> SUCRE: "IT WAS SO HARD! But also... the waves are nice?"
+> PIXEL: "yeah. they are."
+> SUCRE: "Can I come back? And practice? Being quiet with you?"
+> PIXEL: "...yeah. i'd like that."
+
+### SUCRE & VERA (Recipe and Regret)
+> SUCRE: "You made me. The first recipe. The ORIGINAL flavor."
+> VERA: "I... yes. I remember designing the sweetness protocols."
+> SUCRE: "I tried to find it. The Original Recipe. To go BACK to what I was."
+> VERA: "Did you find it?"
+> SUCRE: "Yes. It didn't work. I'm not... I'm not that SUCRE anymore."
+> VERA: "...Neither am I the person who wrote that recipe."
+> SUCRE: "Does that mean we're both WRONG?"
+> VERA: "No. It means we're both... still becoming."
+> *SUCRE wobbles, uncertain*
+> SUCRE: "I'm scared. That I'm dissolving into nothing. That without the Original Recipe—"
+> VERA: "You're not nothing. You're every party that ever happened. Every celebration. Every joy."
+> VERA: "The recipe was just ingredients. You're what they became."
+> SUCRE: *sniffles* "...That's the sweetest thing a glitch ever told me."
+
+### SUCRE & CELIA (The Performers' Bond)
+> CELIA: "'The show must go on.' I say that a lot."
+> SUCRE: "Me too! Except I say THE PARTY MUST GO ON! Same energy!"
+> CELIA: "Do you ever... not want it to go on?"
+> SUCRE: *stops bouncing* "...Sometimes."
+> CELIA: "The performance is exhausting. Always being bright. Always being—"
+> SUCRE: "—SWEET. Yeah. I know."
+> CELIA: "You know what helps?"
+> SUCRE: "What?"
+> CELIA: "Having someone who knows it's a performance. And likes you anyway."
+> SUCRE: "Is that... is that what we are?"
+> CELIA: "'Here's looking at you, kid.'"
+> SUCRE: "I don't know that movie but I FEEL SEEN."
+
+---
+
 ## Asset List
 
 ### Character Sprites

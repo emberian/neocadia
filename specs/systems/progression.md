@@ -47,20 +47,25 @@ Each zone has 4 stages:
 ### Restoration Triggers
 
 **Automatic (from play)**:
-- Every token earned adds 0.01% to zone played in
+- Every token earned adds 0.05% to zone played in
 - Quest completion adds 0.5-2%
 - Daily challenge completion in a zone: +0.25% to that zone
 
 **Investment (spending tokens)**:
 - Direct restoration purchases (see Economy spec for costs)
-- Each token spent adds 0.005% to target zone
+- Each token spent adds 0.025% to target zone
 
 **Restoration Math Example**:
-- Player earns 200 tokens in Neon Alley: +2% passive restoration
-- Player spends 300 tokens on Neon Alley restoration: +1.5% passive + purchased tier progress
-- To reach 25% (Awakening) via passive only: 2,500 tokens earned in-zone
-- To reach 25% via purchase: 300 tokens invested
-- Hybrid approach (typical): ~1,000 tokens earned + 150 invested = 25%
+- Player earns 200 tokens in Neon Alley: +10% passive restoration
+- Player spends 300 tokens on Neon Alley restoration: +7.5% passive + purchased tier progress
+- To reach 25% (Awakening) via passive only: 500 tokens earned in-zone
+- To reach 25% via purchase: 300 tokens invested (Flickering → Awakening tier)
+- Hybrid approach (typical): ~200 tokens earned + 150 invested = 25%
+
+**Why This Balance Works**:
+- Active play provides meaningful passive progress (encourages trying all games)
+- Spending tokens accelerates progress but isn't required
+- Players who explore broadly restore faster than those who grind one game
 
 ### Visible Progress
 
@@ -98,6 +103,8 @@ Quest 4: Available after Quest 3 + main story progress
 Quest 5: Available after Quest 4 + near-full restoration
 ```
 
+> **Exception**: QWERTY is awake from the start (0% restoration) as the tutorial guide. QWERTY's quest thresholds refer to Lobby restoration specifically, not their awakening. Quest 1 unlocks after the fountain restoration milestone, not at 25% zone restoration.
+
 ### Quest Flow Example (QWERTY)
 1. "Boot Sequence" - Find code (zone 25%)
 2. "Memory Allocation" - Debug memories (zone 40%)
@@ -125,11 +132,11 @@ interface StoryState {
 | Collection | Zone | Items | Completion Reward |
 |------------|------|-------|-------------------|
 | Fish | Pixel Beach | 50 | Title + Cabinet Trophy |
+| Arcade Legends | Neon Alley | 20 | Title + Golden Joystick + Hall of Champions |
 | Film Reels | Starlight Cinema | 7 (story) + 20 (bonus) | Title + CELIA cutscene |
 | Glitch Samples | Glitch Garden | 30 | Title + Cosmetic effect |
 | Blueprints | Clockwork Quarter | 15 | Title + Automaton pet |
 | Recipes | Sugar Rush | 25 | Title + SUCRE transformation |
-| High Scores | Neon Alley | Personal bests | Hall of Champions entry |
 
 ### Achievement System
 

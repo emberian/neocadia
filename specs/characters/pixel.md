@@ -211,6 +211,64 @@ A friendly crab rendered in chunky 8-bit style, like a character from an early N
 
 ---
 
+## Inter-Character Dialogue
+
+### PIXEL & VERA (Shared Loneliness)
+> PIXEL: "you've been in the garden a long time."
+> VERA: "Yes."
+> PIXEL: "does it help? being alone?"
+> VERA: "...No. But I don't know how to stop."
+> PIXEL: "yeah. i get that."
+> *Long silence. The waves roll in.*
+> PIXEL: "the tide doesn't care if anyone's watching. it just... comes and goes."
+> VERA: "That sounds peaceful."
+> PIXEL: "sometimes. sometimes it's lonely."
+> VERA: "What's the difference?"
+> PIXEL: "...whether you chose it or not."
+
+### PIXEL & COG (Philosophy of Stillness vs Action)
+> COG: "You do not attempt to fix things."
+> PIXEL: "nope."
+> COG: "This is inefficient. There is decay. Entropy. Problems that require solutions."
+> PIXEL: "yeah. there are."
+> COG: "And yet you simply... observe?"
+> PIXEL: "what would happen if you stopped fixing? just for a day?"
+> COG: *gears slow* "Things would... break further."
+> PIXEL: "maybe. or maybe they'd just... be. for a while."
+> COG: "That is not the same as improvement."
+> PIXEL: "who said everything needs improving?"
+> COG: "..." *long pause* "...I do not know how to answer that."
+> PIXEL: "that's okay. not everything needs an answer either."
+
+### PIXEL & QWERTY (The Oldest Friends)
+> QWERTY: "We're the oldest ones, aren't we? You and me."
+> PIXEL: "celia's old too."
+> QWERTY: "But we remember the beginning. The first boot. Before there were zones."
+> PIXEL: "...yeah. i remember."
+> QWERTY: "What was it like? When you first became... you?"
+> PIXEL: "quiet. there was nothing but static and potential."
+> PIXEL: "then there was sand. and the sound of waves. and i thought... this is nice."
+> QWERTY: "That's it? 'This is nice'?"
+> PIXEL: "what else is there supposed to be?"
+> QWERTY: "...Maybe nothing. Maybe that's the whole point."
+
+### PIXEL & SUCRE (Teaching Stillness)
+> *SUCRE vibrates next to PIXEL on the beach.*
+> SUCRE: "I'm trying! I'm REALLY trying!"
+> PIXEL: "trying what?"
+> SUCRE: "To be STILL! Like you! To just... BE!"
+> PIXEL: "that's not how stillness works."
+> SUCRE: "Then HOW?"
+> PIXEL: "you can't try to be still. you just... stop trying."
+> SUCRE: "But if I stop trying, nothing happens!"
+> PIXEL: "...exactly."
+> *SUCRE's bouncing slows. Then stops. For three whole seconds.*
+> PIXEL: "there. you did it."
+> SUCRE: "I DID?! Wait—" *starts bouncing again* "I LOST IT!"
+> PIXEL: "...you'll get it. takes practice."
+
+---
+
 ## Asset List
 
 ### Character Sprites

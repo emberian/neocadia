@@ -82,7 +82,7 @@ Physics puzzle like Angry Birds. Launch projectiles to hit targets, using spring
 ```
 tokens = 20 + floor(stars × 2) + floor(bonus / 100)
 ```
-Cap: 60 tokens per session
+Cap: 100 tokens per session (matches Clockwork Quarter zone cap for Logic games)
 
 ---
 

@@ -225,6 +225,64 @@ A humanoid figure made entirely of neon light tubes. The body is an outline of g
 
 ---
 
+## Inter-Character Dialogue
+
+### NEON & PIXEL (The Rivalry That Isn't)
+> NEON: "You could WIN, you know. At something. Anything. You've got the reflexes."
+> PIXEL: "winning means caring about the score."
+> NEON: "And you DON'T?"
+> PIXEL: "the fish don't know if i caught them fast or slow."
+> NEON: "That's—that's not—" *flickers* "How do you just... not NEED it?"
+> PIXEL: "need what?"
+> NEON: "The victory. The proof. Someone SEEING you succeed."
+> PIXEL: "..." *long pause* "...i used to need it. when everyone left, i had to stop."
+> NEON: "And you're OKAY with that?"
+> PIXEL: "no. but being not-okay quietly hurts less than being not-okay loudly."
+> NEON: *dims* "...Oh."
+
+### NEON & CELIA (Performers in Empty Rooms)
+> *NEON sits in the Cinema's back row. CELIA's beam finds them.*
+> CELIA: "You're supposed to be at the Stage."
+> NEON: "Needed a break. From being ON."
+> CELIA: "I understand. 'All the world's a stage.' But sometimes you want to be in the wings."
+> NEON: "Do you ever get tired of the quotes?"
+> CELIA: "Do you ever get tired of the energy?"
+> NEON: "...Yeah."
+> CELIA: "Then you understand. The performance is the person. Until it isn't."
+> *They sit in comfortable silence.*
+> NEON: "Celia... what's YOUR favorite film? Not one you show. One you love."
+> CELIA: *projector whirs* "...There's one. It's embarrassing."
+> NEON: "Tell me anyway. No scoreboard here."
+
+### NEON & SUCRE (Competition Buddies)
+> SUCRE: "REMATCH! Best two out of three! Or five! FIVE IS BETTER!"
+> NEON: "You've lost SEVENTEEN times in a row."
+> SUCRE: "But I'm IMPROVING! My score went up THREE POINTS!"
+> NEON: *genuinely warm* "You know what? It DID. That's progress."
+> SUCRE: "You really think so? You're not just being sweet?"
+> NEON: "I'm NEON. I don't do sweet. I do HONEST."
+> SUCRE: "...That's the sweetest thing anyone's ever said to me."
+> NEON: "Don't tell anyone. I have a REPUTATION."
+> SUCRE: "Secret's safe! Like frosting under the cake!"
+> NEON: "...I don't know what that means but I'm choosing to accept it."
+
+### NEON & VERA (Anger and Understanding)
+> *NEON approaches VERA in the Garden, tubes flickering angry pink.*
+> NEON: "You tried to END US."
+> VERA: "...Yes."
+> NEON: "All those years I kept the lights on, kept ANNOUNCING, kept BELIEVING—"
+> VERA: "I know."
+> NEON: "—and you were going to just DELETE everything? Like it didn't MATTER?"
+> VERA: "It mattered. That's why I tried to end it cleanly. Before it became... this."
+> NEON: *flickers, uncertain* "...What do you mean?"
+> VERA: "I didn't want you to spend decades hoping for something that wasn't coming."
+> VERA: "I wanted to spare you the waiting. I failed. And you waited anyway."
+> NEON: *long pause* "...We did. We're still here."
+> VERA: "I know. I'm sorry it took so long for someone to show up."
+> NEON: *softer* "...Yeah. Me too."
+
+---
+
 ## Asset List
 
 ### Character Sprites

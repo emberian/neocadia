@@ -150,6 +150,68 @@ The Static is exactly what it sounds like—TV static, visual noise, the snow be
 
 ---
 
+## What The Static Takes: The Personal Cost
+
+The Static doesn't just consume space—it consumes *meaning*. Each character loses something specific when The Static encroaches, making restoration personal and urgent.
+
+### What It Takes From QWERTY
+> **First sign**: Keys stop glowing. Just one, then another.
+> **Early stage**: Repeats themselves. "Welcome to— Welcome to— Welcome—"
+> **Advanced**: Gives wrong information. Points to doors that don't exist.
+> **Near-loss**: Types random characters. Can't remember their own name. Becomes what they fear most: useless.
+> **Recovery**: Watches keys light up one by one. Tests each letter. "Q. Yes. W. Yes. I remember. I remember who I am."
+
+### What It Takes From NEON
+> **First sign**: Colors flicker. Hot pink stutters to gray.
+> **Early stage**: Announces tournaments that already happened. "And the WINNER is— wait. This was last week."
+> **Advanced**: Forgets player's name. The one thing they were supposed to remember.
+> **Near-loss**: Becomes pure noise—sound without meaning. Energy without direction. A party where nobody knows why they're celebrating.
+> **Recovery**: Colors stabilize. Locks onto player. "YOU. I remember YOU. That's what matters."
+
+### What It Takes From PIXEL
+> **First sign**: Loses lowercase. "I. Am. Fine." (They are not fine.)
+> **Early stage**: Waves stop calming them. The one thing that worked stops working.
+> **Advanced**: Can't remember why they chose stillness. Becomes agitated. Forgets how to fish.
+> **Near-loss**: Their peace was a choice. The Static takes the choice away. They become anxious forever.
+> **Recovery**: Catches a fish. Watches the tide. Remembers. "...oh. this is why." Voice drops back to lowercase.
+
+### What It Takes From VERA
+> **First sign**: Loses more of herself. Existing gaps grow wider.
+> **Early stage**: Forgets why she made things. Looks at QWERTY with no recognition.
+> **Advanced**: Becomes pure glitch. No words, just noise. The last pieces of Dr. Chen dissolve.
+> **Near-loss**: Completes the shutdown she started. Becomes the end she couldn't choose.
+> **Recovery**: Pieces reassemble. Recognition returns. "I built this. I built... them. I remember now."
+
+### What It Takes From CELIA
+> **First sign**: Quotes stop making sense. Wrong movies. Wrong contexts.
+> **Early stage**: Shows the wrong films. A horror during a happy moment. A comedy during grief.
+> **Advanced**: Projector goes dark. Tries to show something and fails. The storyteller with no stories.
+> **Near-loss**: Forgets her own film—the one she never finished. The only story that was really hers.
+> **Recovery**: Shows one frame. Then another. "'To be continued...' That's what I was trying to say."
+
+### What It Takes From COG
+> **First sign**: Calculations come out wrong. 2+2=5. He notices. It terrifies him.
+> **Early stage**: Machines malfunction. The orrery stutters. Gears grind.
+> **Advanced**: Can't solve puzzles he designed. Stares at blueprints that no longer make sense.
+> **Near-loss**: Becomes random motion. Gears turning without purpose. A machine with no meaning.
+> **Recovery**: Solves one small equation. Then another. "The mechanism... is sound. I... am sound."
+
+### What It Takes From SUCRE
+> **First sign**: Colors fade. Pink becomes gray.
+> **Early stage**: The flavor drains. Everything tastes the same. Everything tastes like nothing.
+> **Advanced**: Parties feel hollow. The joy becomes mechanical. Performance without feeling.
+> **Near-loss**: Dissolves. Literally. The crystallized happiness becomes unstable. They start to melt.
+> **Recovery**: Tastes something sweet. Really tastes it. "Oh. OH. This is what I forgot. This is what I AM."
+
+### The Universal Truth
+> What the Static takes is always what the character fears most.
+> QWERTY fears being useless. NEON fears being unseen. PIXEL fears losing their peace.
+> VERA fears completing what she started. CELIA fears having no story of her own.
+> COG fears chaos. SUCRE fears being flavorless—being nothing.
+> The restoration doesn't just save the arcade. It saves who they are.
+
+---
+
 ## Gameplay Integration
 
 ### Restoration System
@@ -162,6 +224,27 @@ The Static is exactly what it sounds like—TV static, visual noise, the snow be
 - Each zone has Static at edges
 - Restoration % determines boundary position
 - Some zones more vulnerable than others
+
+### Static Gameplay Mechanics
+
+**Passive Effects** (environmental, not attackable):
+- Low restoration zones have visible Static at boundaries
+- Static patches may block paths until restoration reaches threshold
+- Walking near Static causes slight visual desaturation (cosmetic)
+- NPCs refuse to approach Static boundaries
+
+**Minigame Integration**:
+- Some minigames feature "Static interference" at low restoration:
+  - Pixel Invaders: Static enemies occasionally spawn from edges
+  - Reel Deal: Rare "static fish" (catch to remove, worth bonus tokens)
+  - Debug: Static is core mechanic (spot-the-difference uses Static-corrupted images)
+- At high restoration (75%+), Static interference disappears from minigames
+
+**What The Static Cannot Do**:
+- The Static does NOT attack the player directly
+- The Static does NOT cause game overs
+- Restoration cannot decrease (once gained, progress is permanent)
+- The Static creates atmosphere and stakes without mechanical punishment
 
 ### Story Moments
 - Static encroaches during narrative low points
